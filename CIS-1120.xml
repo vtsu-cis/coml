@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2006-08-30" reviewed="2014-02-04" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Craig A. Damon</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-1120</number>
+    <title>Introduction to Information Science and Technology</title>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course introduces students to the world of IST across a broad range of
+      topics. Topics include history of computing, computing in society, career paths in
+      computing and the use of computers in the workplace.</description>
+  </summary>
+  
+  <short-title>Intro to IST</short-title>
+  <course-level>1000</course-level>
+  
+  <course-outcomes>
+    <outcome>Understand the context of computing in the current society, including the business
+      place.</outcome>
+    <outcome>Understand the social consequences of modern computing technology and the way it
+      is used.</outcome>
+    <outcome>Understand the historical development of computing technology and its impact on
+      current decisions.</outcome>
+    <outcome>Make informed decisions about upcoming choices towards a computing major and
+      technical electives.</outcome>
+    <outcome>Understand the resources available to and expectations and responsibilities of a
+      college student at Vermont Technical College.</outcome>
+  </course-outcomes>
+  
+  <course-content>
+    <summary>The details of the course may vary somewhat over time to stay topical and reflect
+      current issues and interests. Typically, the bulk of the class will cover several broad
+      themes. For each of these themes, the class should consider the historical, social,
+      ethical, business and technological implications and development. In addition, the course
+      will ensure that all students are exposed to key considerations of being a student at
+      Vermont Technical College.</summary>
+    
+    <topic>Drivers of computing (modeling the natural world, counting and computing, and
+      information management).</topic>
+    <topic>Enabled technologies (telecommunication and networking, privacy and secrecy, media,
+      optionally operations research).</topic>
+    <topic>Foundations of computing (what is thinking, natural and artificial intelligence,
+      robotics).</topic>
+    <topic>Fun (gaming and graphics, the future).</topic>
+    <topic>Resources available to students.</topic>
+    <topic>Registration and other key processes.</topic>
+    <topic>Word processing and related tools.</topic>
+    <topic>Appropriate behavior in and out of classrooms.</topic>
+  </course-content>
+  
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Homework</method>
+    <method>Quizzes</method>
+    <method>Papers</method>
+    <method>Final Exam</method>
+  </evaluation>
+  <additional-information>This course serves as a breadth first introduction to the field of
+    computing for all IST students.</additional-information>
+  
+  <internal-comments>This course replaced HIS-1260, History of IT, which was a required first
+    semester course for all IST students. As this course is taken by every first semester fall
+    student, it incorporates the current Freshman Orientation material as
+    well.</internal-comments>
+</outline>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="file:///\\vtcfiles\docs\ECET\Outlines\COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-14" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>John Murphy</author>
+      <author>Craig A. Damon</author>
+    </authors>
+
+    <department-program>Computer Information Science</department-program>
+    <number>CIS-4030</number>
+    <title>GUI Programming</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2260</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>Modern Graphical User Interface (GUI) design and implementation methods are
+      studied. The course uses Java and C++ as the base languages. Industry standard libraries, such
+      as Swing, Microsoft Foundation Classes (MFC), Direct3D, and OpenGL are used throughout the
+      semester for programming coursework.</description>
+  </summary>
+  <short-title>GUI Programming</short-title>
+  <course-level>4000</course-level>
+  <required-texts>
+    <book>
+      <title>Java: How to Program</title>
+      <edition>fourth</edition>
+      <authors>
+        <author>H. M. Deitel</author>
+        <author>P. J. Deitel</author>
+      </authors>
+      <publisher>Prentice-Hall</publisher>
+      <copyright>2002</copyright>
+      <ISBN>0-13-034151-7</ISBN>
+    </book>
+    <book>
+      <title>Getting Started with Microsoft Visual C++ with an Introduction to MFC</title>
+      <authors>
+        <author>H. M. Deitel</author>
+        <author>P. J. Deitel</author>
+        <author>T. R. Nietu</author>
+        <author>E. T. Strassberger</author>
+      </authors>
+      <publisher>Upper Saddle River: Prentice Hall</publisher>
+      <copyright>2000</copyright>
+      <ISBN>0-13-016147-0</ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Declare, instantiate, and display Java Swing controls.</outcome>
+    <outcome>Create class methods that respond to Java Swing controls.</outcome>
+    <outcome>Combine Java controls to produce graphical user interfaces using various container
+      classes.</outcome>
+    <outcome>Utilize threads in Java.</outcome>
+    <outcome>Handle Java exceptions.</outcome>
+    <outcome>Produce Java programs that run as either Applets or standalone applications.</outcome>
+    <outcome>Declare, instantiate, and display Windows MFC controls.</outcome>
+    <outcome>Create class methods that respond to Windows MFC controls.</outcome>
+    <outcome>Produce MFC applications using either frame windows or dialog boxes.</outcome>
+    <outcome>Send and receive data using dynamic dialog exchange (DDX).</outcome>
+    <outcome>Employ MFC threads.</outcome>
+    <outcome>Create a simple OpenGL or DirectX application utilizing 3D rendering.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="3">GUI "look and feel," good design practices, available compilers, a brief Java
+      review, introduction to Swing, interfaces (implement) and superclasses (extend), JFrame,
+      JOptionPane, and Java graphics using Paint().</topic>
+    <topic hours="3">Java containers, JLabel, JTextField, JpasswordField, and HTML used with Java.</topic>
+    <topic hours="3">Inner classes, event handlers, listeners, and Jbutton, JCheckBox, JRadioButton,
+      JComboBox, and Jlist.</topic>
+    <topic hours="3">JSlider, mouse and keyboard handling, listeners vs. adapters.</topic>
+    <topic hours="3">Layout managers (FlowLayout, BorderLayout, GridLayout, BoxLayout, CardLayout,
+      and GridBagLayout).</topic>
+    <topic hours="3">Java timers, exception handling and threads.</topic>
+    <topic hours="3">Web browser Applets and Applets that can be run as stand alone applications.</topic>
+    <topic hours="3">Introduction to Microsoft Foundation Classes (MFC), the Graphical Device
+      Interface (GDI), and the MFC/Windows message queue.</topic>
+    <topic hours="3">MFC event handling, CButton, CEdit, CScrollbar, CRadioButton, CScrollBar, and
+      CSlider.</topic>
+    <topic hours="3">MFC mouse and keyboard handling, CSpinButton.</topic>
+    <topic hours="3">MFC timers (WM_TIMER, multimedia timer, and performance timer).</topic>
+    <topic hours="3">CDialog class, Dialog Data Exchange (DDX).</topic>
+    <topic hours="3">Introduction to OpenGL, OpenGL in an MFC dialog box.</topic>
+    <topic hours="3">OpenGL rendering concepts.</topic>
+    <topic hours="3">OpenGL animation.</topic>
+  </course-content>
+  <delivery-method>online</delivery-method>
+</outline>

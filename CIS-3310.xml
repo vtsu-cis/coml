@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-13" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Craig A. Damon</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-3310</number>
+    <title>Artificial Intelligence</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2260</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>Students learn the algorithms and data structures used in artificial
+      intelligence and to program a range of approaches that computers use to emulate
+      intelligence, such as planning, knowledge representation, learning, decision making and
+      game playing.</description>
+  </summary>
+  <short-title>AI</short-title>
+  <course-level>3000</course-level>
+  <required-texts>
+    <book>
+      <title>AI A Modern Approach</title>
+      <authors>
+        <author>Russell</author>
+        <author>Norvig</author>
+      </authors>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Identify and apply the appropriate approach for a range of artificial intelligence
+      problems.</outcome>
+    <outcome>Program a computer to learn and retain knowledge.</outcome>
+    <outcome>Program a computer to draw logical deductions from existing propositions.</outcome>
+    <outcome>Program a computer to develop a plan to solve a problem.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="3">Introduction to AI</topic>
+    <topic hours="12">Search: dfs, bfs, A*, local search, adversarial search, constraint satisfaction</topic>
+    <topic hours="12">Knowledge Reasoning and Planning: logic, planning, inference, knowledge representation</topic>
+    <topic hours="3">Uncertainty</topic>
+    <topic hours="9">Learning: neural networks, reinforcement learning, probabilistic learning</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Homework</method>
+    <method>Projects</method>
+    <method>Quizzes</method>
+    <method>Final Exam</method>
+  </evaluation>
+</outline>

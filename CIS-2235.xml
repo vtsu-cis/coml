@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-04-06" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Jean Hakim</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-2235</number>
+    <title>Advanced System Administration</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2151</course>
+        <course>CIS-2230</course>
+      </AND>
+    </prerequisites>
+    <credits>4</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="2" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>This course focuses on the tasks involved in managing information technology
+      systems at the enterprise level. Topics covered include Active Directory and LDAP
+      administration, router administration, security in a networked infrastructure, DNS, NIS
+      and DHCP administration, VPN and firewall integration, and Network Management; A series of
+      case study situations are presented and applied in a lab environment providing students
+      with real-world experiences reinforcing the concepts covered during the lectures.
+    </description>
+  </summary>
+  <short-title>Adv Sys Admin</short-title>
+  <course-level>2000</course-level>
+  <course-outcomes>
+    <outcome>Install and manage a wide range of enterprise information technologies.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="1.0">Introduction.</topic>
+    <topic hours="3.0">Distributed authentication.</topic>
+    <topic hours="2.0">Enterprise security overview.</topic>
+    <topic hours="5.0">Active Directory and LDAP.</topic>
+    <topic hours="3.0">E-Mail.</topic>
+    <topic hours="1.0">Backup.</topic>
+    <topic hours="4.0">Network file systems.</topic>
+    <topic hours="4.0">Web servers and application servers.</topic>
+    <topic hours="3.0">Wireless networks.</topic>
+    <topic hours="2.0">Shared applications and license servers.</topic>
+    <topic hours="3.0">Monitoring enterprise health.</topic>
+    <topic hours="8.0">Optional topics as time permits.</topic>
+  </course-content>
+  <laboratory-studio-outcomes>
+    <summary>The student lab work will complement the course content with hands on practice. The
+      outcomes are shared with the lecture.</summary>
+  </laboratory-studio-outcomes>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

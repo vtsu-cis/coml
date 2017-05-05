@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2001-09-01" reviewed="2014-02-07" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Jean Hakim</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-2151</number>
+    <title>Computer Networks I</title>
+    <prerequisites>
+      <AND>
+        <OR>
+          <course>CIS-2025</course>
+          <course>CIS-2261</course>
+          <course>CIS-2271</course>
+        </OR>
+        <other>A minimum of C- is required in CIS-2025, CIS-2261, or CIS-2271</other>
+      </AND>
+    </prerequisites>
+    <credits>4</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="2" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>This course introduces the student to network protocols. The course covers
+      physical, data link, network, transport, and application layer protocols. The TCP/IP
+      protocol suite is discussed in detail. Topics include Ethernet, connectionless protocols,
+      connection oriented protocols, and application protocols such as DNS, DHCP, and HTTP.
+      Students learn about both hardware and software troubleshooting tools, security issues,
+      and current topics such as IPv6. Hands-on experience working with networking equipment and
+      use of network simulation tools is used throughout the course.</description>
+  </summary>
+  <short-title>Computer Networks I</short-title>
+  <course-level>2000</course-level>
+  <required-texts>
+    <book>
+      <title>Cisco CCNA Routing and Switching ICND2 100-101</title>
+      <authors>
+        <author>Wendell Odom</author>
+      </authors>
+      <ISBN>978-1-58714-485-1</ISBN>
+    </book>
+  </required-texts>
+  <optional-texts>
+    <book>
+      <title>CCNA Portable Command Guide</title>
+      <authors>
+        <author>Scott Empson</author>
+      </authors>
+      <ISBN>9781587204302</ISBN>
+    </book>
+  </optional-texts>
+  <course-outcomes>
+    <outcome>Be able install and troubleshoot small to medium size Ethernet networks.</outcome>
+    <outcome>Have a working knowledge of networking protocols from the physical layer through
+      the transport layer.</outcome>
+    <outcome>Understand cabling types, connectors, and proper termination.</outcome>
+    <outcome>Be familiar with the use of a network protocol analyzer and be able to analyze
+      network traffic.</outcome>
+    <outcome>Understand the basic fundamentals of WANs.</outcome>
+    <outcome>Have a basic awareness of various networking components including routers switches,
+      hubs and firewalls.</outcome>
+    <outcome>Understand IPv4 addressing concepts, including subnet design, variable length
+      subnet masks and route summarization.</outcome>
+    <outcome>Understand IPv4 services such as Access Control Lists and Network address
+      translation.</outcome>
+    <outcome>Understand IPv6 addressing concepts and subnetting and how to implement IPv6 on
+      hosts and routers.</outcome>
+    <outcome>Be able to operate, troubleshoot, and repair TCP/IP networks.</outcome>
+    <outcome>Understand LAN and switching technologies.</outcome>
+    <outcome>Understand internetworking protocols such as HTTP, DNS and e-mail related
+      protocols.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="3">TCP/IP and OSI networking models</topic>
+    <topic hours="2">Network Architecture</topic>
+    <topic hours="3">Fundamentals of Ethernet LANs</topic>
+    <topic hours="2">Fundamentals of WANs</topic>
+    <topic hours="3">Installing and Operating Ethernet LANs and Switches</topic>
+    <topic hours="5">Transport layer protocols and operation</topic>
+    <topic hours="3">Implementing Ethernet Virtual LANs</topic>
+    <topic hours="3">IPv4 addressing and subnetting</topic>
+    <topic hours="5">Subnet design, VLSM and route summarization</topic>
+    <topic hours="3">Fundamentals of Routing algorithms</topic>
+    <topic hours="3">IPv4 Services , ACLs, NAT</topic>
+    <topic hours="5">IPv6 addressing and implementation</topic>
+    <topic hours="2">Fundamentals of IPv6 routing</topic>
+  </course-content>
+  <laboratory-studio-outcomes>
+    <summary>The laboratories are designed to enhance the student's understanding of the lecture
+      topics. Wherever possible, students get hands-on exposure to equipment referenced in
+      lecture and currently in use in industry. Students learn problem solving and teamwork by
+      overcoming challenges that arise when confronted with real-world situations. Students
+      enhance their technical writing skills by completing a written report on each
+      lab.</summary>
+  </laboratory-studio-outcomes>
+  <laboratory-studio-content>
+    <topic>Orientation / Using Network Tools</topic>
+    <topic>TCP/IP Configuration Information</topic>
+    <topic>TCP and UDP protocol operation</topic>
+    <topic>Address Resolution Protocol and Discovery</topic>
+    <topic>Packet Analysis Tools</topic>
+    <topic>Hands on configuring and operating routing, switching and wireless equipment</topic>
+    <topic>Subnetting</topic>
+    <topic>Implementing routing protocols</topic>
+    <topic>Implementing ACLs</topic>
+    <topic>IPv6 configuration and operation</topic>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Attendance</method>
+    <method>Lab Reports</method>
+    <method>Homework</method>
+    <method>Quizzes</method>
+    <method>Final Exam</method>
+  </evaluation>
+  <room-requirements>CIS laboratory: CON-106 (Randolph Center) or BLP-210 (Williston)</room-requirements>
+</outline>

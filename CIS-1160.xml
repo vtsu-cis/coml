@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2005-09-30" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Anna L. Poplawski</author>
+    </authors>
+    <department-program>Electrical and Computer Engineering Technology</department-program>
+    <number>CIS-1160</number>
+    <title>Fundamentals of Programming in C</title>
+    <prerequisites>
+      <OR>
+        <course>MAT-1111</course>
+        <other>Equivalent</other>
+      </OR>
+    </prerequisites>
+    <credits>1</credits>
+    <graded>true</graded>
+    <time lecture="0" laboratory="3" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course is intended to be a gentle introduction to writing programs in a
+      Windows environment. It will be taught using the C programming language, but will focus
+      primarily on concepts such as variable declarations, if statements, and loops that are
+      common to most popular programming languages. Students are not required to have more than
+      a rudimentary knowledge of the Windows operating system, so the first part of the course
+      will also teach students how to manage files and directories, run programs, edit text
+      files, and use a compiler. The purpose of the course is to give students in the 3-year,
+      computer and electrical engineering technology programs a head start so that they are not
+      overwhelmed at the beginning of CIS-2025. It is also open to other students, especially
+      engineering students, who would like an introduction to programming.</description>
+  </summary>
+  <short-title>C Programming</short-title>
+  <course-level>1000</course-level>
+  <course-outcomes>
+    <summary>Labs will begin with a short lecture and demonstration on the current topic.
+      Afterwards, students will have an assignment to give them practice using the material.
+      Quizzes will be given periodically, and there will be a final exam.</summary>
+    <outcome>Understand the file and directory structure of the Windows operating
+      system.</outcome>
+    <outcome>Know the syntax of parts of the C language.</outcome>
+    <outcome>Understand the use of variables in programs.</outcome>
+    <outcome>Write programs that perform calculations.</outcome>
+    <outcome>Modify sections of larger programs.</outcome>
+  </course-outcomes>
+
+  <course-content>
+    <topic>Using Windows, managing files and directories, running programs.</topic>
+    <topic>Using an IDE.</topic>
+    <topic>Programs that print text.</topic>
+    <topic>Using variables, reading user input.</topic>
+    <topic>Arithmetic.</topic>
+    <topic>If and if-else statements.</topic>
+    <topic>Switch statements.</topic>
+    <topic>Using the debugger.</topic>
+    <topic>Calling functions.</topic>
+    <topic>While loops.</topic>
+    <topic>Do-while loops.</topic>
+    <topic>For loops.</topic>
+    <topic>Project, part 1.</topic>
+    <topic>Project, part 2.</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

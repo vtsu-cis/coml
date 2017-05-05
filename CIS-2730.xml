@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2007-01-17" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Craig A. Damon</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-2730</number>
+    <title>Software Engineering Project</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2260</course>
+        <course>CIS-2320</course>
+      </AND>
+    </prerequisites>
+    <credits>2</credits>
+    <graded>true</graded>
+    <time lecture="1" laboratory="2" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>This capstone course involves the development of a group project. The
+      development effort will be combined with an introduction to systems development and life
+      cycle. Students will also receive an introduction to orally presenting technical
+      information to a technical audience. Each group will present their project design and the
+      final project.</description>
+  </summary>
+  <short-title>CSE Project</short-title>
+  <course-level>2000</course-level>
+  <course-outcomes>
+    <outcome>Work in a group to develop a complete software product.</outcome>
+    <outcome>Manage a software development project including planning, scheduling and generating
+      status reports.</outcome>
+    <outcome>Effectively communicate the goals and techniques of a software project
+      orally.</outcome>
+    <outcome>Document the structure and usage of a complete software product.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="2">Software development life cycle.</topic>
+    <topic hours="1">Software documentation.</topic>
+    <topic hours="2">Project management.</topic>
+    <topic hours="3">Presenting technical information.</topic>
+    <topic hours="2">Project scheduling.</topic>
+    <topic hours="4">Practice presentations.</topic>
+  </course-content>
+  <laboratory-studio-content>
+    <summary>Student self-directed work on their projects.</summary>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Projects</method>
+    <method>Presentations</method>
+  </evaluation>
+</outline>

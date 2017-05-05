@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="COML.xsl" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+<ns1:outline created="2007-09-14" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ns1="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+  <ns1:summary>
+    <ns1:authors>
+      <ns1:author>Peter C. Chapin</ns1:author>
+    </ns1:authors>
+    <ns1:department-program>Electrical and Computer Engineering
+      Technology</ns1:department-program>
+    <ns1:number>CIS-9999</ns1:number>
+    <ns1:title>Underwater Basket Weaving</ns1:title>
+    <ns1:prerequisites>
+      <ns1:AND>
+        <ns1:course>CIS-9999</ns1:course>
+      </ns1:AND>
+    </ns1:prerequisites>
+    <ns1:credits>4</ns1:credits>
+    <ns1:graded>true</ns1:graded>
+    <ns1:time lecture="3" laboratory="3" studio="0" recitation="0" study="0"/>
+    <ns1:semesters>
+      <ns1:semester>Fall</ns1:semester>
+    </ns1:semesters>
+    <ns1:description>This is a wonderful course that you will love in every way. It is my hope
+      that everyone will take this course.</ns1:description>
+  </ns1:summary>
+  <ns1:short-title>Basket Weaving</ns1:short-title>
+  <ns1:course-level>1000</ns1:course-level>
+  <ns1:course-outcomes>
+    <ns1:summary>Having lots of fun!</ns1:summary>
+    <ns1:outcome/>
+  </ns1:course-outcomes>
+  <ns1:course-content>
+    <ns1:summary>Weave baskets</ns1:summary>
+    <ns1:topic hours="1">Fizzle</ns1:topic>
+  </ns1:course-content>
+  <ns1:delivery-method>face-to-face</ns1:delivery-method>
+</ns1:outline>

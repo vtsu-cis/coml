@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-13" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Peter C. Chapin</author>
+      <author>Craig A. Damon</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-3170</number>
+    <title>History: Theory of Computation</title>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>The history of computers and early calculators will be examined. Students will
+      learn the principles of early computational devices and investigate how the concepts
+      utilized in these devices are implemented in modern computers. Particular attention is
+      focused on Boolean logic, Frege formula language, and Turing machines. Implications of
+      Shannon’s Law and Moore’s Law will also be studied. The course is offered in an online
+      Internet format.</description>
+  </summary>
+  <short-title>Theory of Computation</short-title>
+  <course-level>3000</course-level>
+  <required-texts>
+    <book>
+      <title>The Universal Computer: The Road from Leibniz to Turing</title>
+      <authors>
+        <author>Martin Davis</author>
+      </authors>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Understand the principles of early computational devices.</outcome>
+    <outcome>Express arguments using Boolean logic.</outcome>
+    <outcome>Use Frege formula language (Begriffsschrift)</outcome>
+    <outcome>Understand the significance of finite and infinite number representation.</outcome>
+    <outcome>Comprehend the basics of Turing universal computing machines.</outcome>
+    <outcome>Understand the limits of Shannon's Law and the implications of Moore's
+      Law.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="3">Ancient computers from Babylon to Greece.</topic>
+    <topic hours="3">Early mechanical computers: adding machines.</topic>
+    <topic hours="3">Improvements to mechanical devices: multiplication and division.</topic>
+    <topic hours="3">Leibniz vision of a universal computing device.</topic>
+    <topic hours="3">Boolean logic introduction.</topic>
+    <topic hours="3">Boolean logic.</topic>
+    <topic hours="3">Frege formula language introduction.</topic>
+    <topic hours="3">Frege formula language.</topic>
+    <topic hours="3">Representation of infinite number series.</topic>
+    <topic hours="3">Contributions by Hilbert.</topic>
+    <topic hours="3">Godel explores advanced logic principles.</topic>
+    <topic hours="3">Introduction to Turing Machines.</topic>
+    <topic hours="3">Turning Machines.</topic>
+    <topic hours="3">The future of computing: Shannon's Law and Moore's Law.</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

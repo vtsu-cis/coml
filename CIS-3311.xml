@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="file:///\\vtcfiles\docs\ECET\Outlines\COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-14" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Craig A. Damon</author>
+      <author>Jean F. Hakim</author>
+    </authors>
+
+    <department-program>Computer and Information Science</department-program>
+    <number>CIS-3311</number>
+    <title>Budgeting and Planning IT Infrastructure</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2151</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="2" studio="0" recitation="0" study="0"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>A first semester course that covers an indepth study of the
+     systems development, deployment and monitoring of an information technology system. All aspects of the systems
+     development cycle are covered. This course covers the RFP/RFQ process, technology requirements,
+     systems architecture, and systems engineering processes. The role of project management aspects of large 
+     scale systems is also covered.
+    .</description>
+  </summary>
+  <short-title>Plan. IT Infrastruct.</short-title>
+  <course-level>3000</course-level>
+  <required-texts>
+    <book>
+      <title></title>
+      <authors>
+        <author></author>
+      </authors>
+      <publisher></publisher>
+      <copyright></copyright>
+      <ISBN></ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Understanding of the RFP/RFQ process.</outcome>
+    <outcome>Gain a comprehensive understanding of the systems development process </outcome>
+    <outcome>Work effectively on teams to develop large systems.  </outcome>
+    <outcome>Understand the engineering process and its effect on business </outcome>
+    <outcome> Develop a comprehensive systems architecture and engineering document.</outcome>
+    <outcome></outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="8">Systems engineering overview </topic>
+    <topic hours="7">Customer requirements process </topic>
+    <topic hours="7">Requirements development</topic>
+    <topic hours="6">Systems requirements </topic>
+    <topic hours="6">User interface requirements  </topic>
+    <topic hours="8">Systems architecture</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+    <evaluation>
+    <method>Homework</method>
+    <method>Projects</method>
+    <method>Presentations</method>
+    <method>Quizzes</method>
+    <method>Final Exam</method>
+  </evaluation>
+</outline>

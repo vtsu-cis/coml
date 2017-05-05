@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="file:///\\vtcfiles\docs\ECET\Outlines\COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-13" reviewed="2017-04-25" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Peter C. Chapin</author>
+      <author>Craig A. Damon</author>
+      <author>Samuel Colwell</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-4050</number>
+    <title>Compiler Design</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-3030</course>
+        <course>CIS-3050</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="0"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>This course familiarizes the student with how computer languages are
+    implemented. Throughout the course students will write a small compiler for a simplified
+    programming language specified by the instructor. Students will use compiler construction
+    tools such as lexical analyzer generators and parser generators as well as create some hand
+    built components. Although some theory is presented, the emphasis is on implementation. The
+    programming is done in C or Java at the instructor's discretion.</description>
+  </summary>
+
+  <short-title>Compiler Design</short-title>
+  <course-level>4000</course-level>
+  <required-texts>
+    <book>
+      <title>Engineering a Compiler</title>
+      <edition>second</edition>
+      <authors>
+        <author>Keith D. Cooper</author>
+        <author>Linda Torczon</author>
+      </authors>
+      <publisher>Morgan Kaufmann</publisher>
+      <copyright>2012</copyright>
+      <ISBN>978-0-12-088478-0</ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Use lexical analyzer generator and a parser generator to build a lexical analyzer
+    and a parser.</outcome>
+    <outcome>Read, understand, and design BNF grammars.</outcome>
+    <outcome>Create a hand made regular expression matching library and a recursive decent
+    parser.</outcome>
+    <outcome>Use the techniques of syntax directed translation to build a program that can
+    perform a useful transformation on a simple source language.</outcome>
+    <outcome>Write a program that can perform basic type analysis (or some other form of
+    semantic analysis).</outcome>
+    <outcome>Understand the principles of code generation and optimization and be able to
+    implement at least some of those principles.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="6">Lexical analysis, finite automata, and using a lexical analyzer
+      generator.</topic>
+    <topic hours="3">Context free grammars and BNF.</topic>
+    <topic hours="9">Recursive decent parsing, and using a parser generator.</topic>
+    <topic hours="6">Syntax directed translation.</topic>
+    <topic hours="4">Semantic analysis, type systems.</topic>
+    <topic hours="3">Intermediate code generation and optimization.</topic>
+    <topic hours="4">Final code generation, register allocation.</topic>
+    <topic hours="4">Optimization methods.</topic>
+  </course-content>
+  <delivery-method>online</delivery-method>
+</outline>

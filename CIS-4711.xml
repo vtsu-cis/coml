@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-20" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Richard Warren</author>
+    </authors>
+    <department-program>Electrical and Computer Engineering Technology</department-program>
+    <number>CIS-4711</number>
+    <title>CPE Project I</title>
+    <prerequisites>
+      <AND>
+        <other>Senior standing in the BS.CPE program</other>
+      </AND>
+    </prerequisites>
+    <credits>2</credits>
+    <graded>true</graded>
+    <time lecture="1" laboratory="3" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course is a largely self-directed senior project in which students
+      demonstrate their mastery of the subjects covered in the BS.CPE program.</description>
+  </summary>
+  <short-title>CPE Project I</short-title>
+  <course-level>4000</course-level>
+  <course-outcomes>
+    <outcome>Develop a set of system requirements and specifications for a large
+      system.</outcome>
+    <outcome>Identify and use appropriate time management skills and tools.</outcome>
+    <outcome>Develop a moderately complex computer based system that employs both hardware and
+      software.</outcome>
+    <outcome>Prepare and deliver oral presentations with effective use of visual aids.</outcome>
+    <outcome>Understand the role of quality in system development and ways to achieve
+      it.</outcome>
+    <outcome>Create, and strive to adhere to, a project schedule.</outcome>
+    <outcome>Document a system design, including the creation of a users manual and the
+      maintenance of a project notebook.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="1">Course introduction.</topic>
+    <topic hours="1">Design methodology, the common project: proposal and brainstorming.</topic>
+    <topic hours="1">System requirements and specifications.</topic>
+    <topic hours="1">Identifying customer needs.</topic>
+    <topic hours="1">Research techniques.</topic>
+    <topic hours="1">How to give effective presentations.</topic>
+    <topic hours="1">Hardware/Software tradeoffs.</topic>
+    <topic hours="1">Common project presentations.</topic>
+    <topic hours="1">Commencement of capstone project.</topic>
+    <topic hours="1">Individual presentationscommon project.</topic>
+    <topic hours="1">Designing for customer satisfaction.</topic>
+    <topic hours="1">Design reviews.</topic>
+    <topic hours="1">Project management, partitioning the project.</topic>
+    <topic hours="1">Project scheduling--Pert and Gant charts.</topic>
+    <topic hours="1">End of semester presentations.</topic>
+  </course-content>
+  <laboratory-studio-outcomes>
+    <summary>Most of the laboratory time is to provide the students the time to execute their
+      projects as they see fit. A few laboratory periods are used for instructional
+      demonstrations, group activities, or presentation rehearsal. The instructors make
+      themselves available for consultation on hardware, software, interfacing, or systems
+      issues during the laboratory time.</summary>
+  </laboratory-studio-outcomes>
+  <laboratory-studio-content>
+    <topic>Self-directed Project Work</topic>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

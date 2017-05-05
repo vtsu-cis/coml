@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="file:///\\vtcfiles\docs\ECET\Outlines\COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-14" reviewed="2014-02-08" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Jean F. Hakim</author>
+      <author>CJ Wang</author>
+    </authors>
+    <department-program>Computer and Information Science</department-program>
+    <number>CIS-1152</number>
+    <title>Advanced Website Development</title>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="2" laboratory="2" studio="0" recitation="0" study="0"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>Students learn intermediate skills and techniques used in webpage development.
+      Topics include: the use of styles, documents that automatically display other documents,
+      interactive JavaScript, frames, HTML creation/conversion tools, using XML to manage
+      content, an introduction to database theory, and use of basic SQL
+      programming.</description>
+  </summary>
+  <short-title>Adv Website Dev</short-title>
+  <course-level>1000</course-level>
+  <required-texts>
+    <book>
+      <title>PHP and MySQL Web Development</title>
+      <edition>4th</edition>
+      <authors>
+        <author>Luke Welling</author>
+        <author>Laura Thomson</author>
+      </authors>
+      <copyright>2009</copyright>
+      <ISBN>978-0-672-32916-6</ISBN>
+    </book>
+  </required-texts>
+  
+  <course-outcomes>
+    <outcome>To introduce concepts about how businesses and organizations serve the public
+      through the Internet–--with a special focus on media-related and information-providing
+      businesses.</outcome>
+    <outcome>Develop strong system development and programming skills in key technologies that
+      are used for web development.</outcome>
+    <outcome>Understand the issues of user interaction and usability that arises when designing
+      and implementing on-line interactive media systems.</outcome>
+    <outcome>Gain a thorough understanding of database integration within web sites.</outcome>
+    <outcome>Develop a strong knowledge of web server and application security.</outcome>
+    <outcome>Be able to develop and manage complete web sites.</outcome>
+  </course-outcomes>
+  
+  <course-content>
+    <topic hours="4">Fundamentals of PHP and server side processing.</topic>
+    <topic hours="5">Authentication methods and implementation.</topic>
+    <topic hours="5">Operators, pop-ups, functions, loops.</topic>
+    <topic hours="6">Web design process.</topic>
+    <topic hours="4">Database integration.</topic>
+    <topic hours="3">CSS fundamentals for advanced use including intro to XML.</topic>
+    <topic hours="4">JavaScript built-in objects.</topic>
+    <topic hours="4">Form processing.</topic>
+    <topic hours="4">Introduction to content management systems.</topic>
+    <topic hours="3">Web and network security.</topic>
+  </course-content>
+  
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Attendance</method>
+    <method>Participation</method>
+    <method>Exams</method>
+    <method>Quizzes</method>
+    <method>Homework</method>
+    <method>Lab Reports</method>
+    <method>Projects</method>
+    <method>Presentations</method>
+    <method>Final Exam</method>
+  </evaluation>
+</outline>

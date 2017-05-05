@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2004-01-01"
+  xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Peter C. Chapin</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-0000</number>
+    <title>The Title</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-0001</course>
+        <course>CIS-0002</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="2" studio="0" recitation="1" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+      <semester>Spring</semester>
+    </semesters>
+    <description>This is a great course!</description>
+  </summary>
+  
+  <short-title>Title</short-title>
+  
+  <course-level>1000</course-level>
+  
+  <required-texts>
+    <book>
+      <title></title>
+      <edition></edition>
+      <authors><author></author></authors>
+      <publisher></publisher>
+      <copyright></copyright>
+      <ISBN></ISBN>
+    </book>
+  </required-texts>
+  
+  <course-outcomes>
+    <outcome></outcome>
+  </course-outcomes>
+  
+  <course-content>
+    <topic hours="1.0"></topic>
+  </course-content>
+  
+  <laboratory-studio-content>
+    <topic hours="1.0"></topic>
+  </laboratory-studio-content>
+  
+  <delivery-method>face-to-face</delivery-method>
+</outline>

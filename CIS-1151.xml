@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="file:///\\vtcfiles\docs\ECET\Outlines\COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-14" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Jean F. Hakim</author>
+    </authors>
+    <department-program>Computer and Information Science</department-program>
+    <number>CIS-1151</number>
+    <title>Website Development</title>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="0"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course includes the introduction of web pages for commercial web sites
+      including use of and design with Hypertext Markup Language, text, and graphics; applying
+      appropriate design, color, and art; size and placement of graphics, including image maps,
+      in a web page; creation of advanced tables, including nested tables; creation of forms
+      that contain advanced input types and attributes, text areas, and advanced lists; and use
+      of a validation tool to debug an HTML document; 2 hours of lecture, 2 hours of laboratory
+      per week..</description>
+  </summary>
+  <short-title>Web Dev</short-title>
+  <course-level>1000</course-level>
+  <required-texts>
+    <book>
+      <title>Web Development &amp; Design Foundations with XHTML</title>
+      <authors>
+        <author>Felke-Morris</author>
+      </authors>
+      <publisher>Addison Wesley</publisher>
+      <copyright>2011</copyright>
+      <ISBN>0-132-12270-7</ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Design and build a web site using HTML, XHTML and CSS.</outcome>
+    <outcome>Best practices using CSS for page layout.</outcome>
+    <outcome>Understand the web development process.</outcome>
+    <outcome>Integrate multimedia (sound, video, images) into a web page.</outcome>
+    <outcome>Understand web site analytics.</outcome>
+    <outcome>Understand the basics of building an E-commerce site</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="4">XHTML Basics </topic>
+    <topic hours="5">CSS</topic>
+    <topic hours="5">Graphics</topic>
+    <topic hours="6">Web Design Process </topic>
+    <topic hours="4">Page Layout with with CSS</topic>
+    <topic hours="3">Links, Lists and Layout </topic>
+    <topic hours="4">Tables</topic>
+    <topic hours="4">XHTML Forms</topic>
+    <topic hours="4">Multimedia</topic>
+    <topic hours="3">E-Commerce Overview</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Homework</method>
+    <method>Projects</method>
+    <method>Presentations</method>
+    <method>Quizzes</method>
+    <method>Final Exam</method>
+  </evaluation>
+</outline>

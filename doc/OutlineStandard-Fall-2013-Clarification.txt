@@ -1,0 +1,82 @@
+Hi Peter –
+
+The new fields fold in information required by the VSC. By creating a single form Erica Dana and
+I hope to avoid having everyone fill out two forms which contain much of the same information.
+The added information also helps Erica schedule classes.
+
+Please let me know if you have other questions or suggestions.
+
+1. Is the SHORT TITLE required and what is its purpose?
+
+- The VSC new course form requires this short title. I believe it is used on pre-reg and
+  transcript forms.
+
+2. What is the purpose of the COURSE LEVEL element?
+
+- It’s become clear to us that our current 1000,2000, etc. numbering system refers only to the
+  year in which a student takes a course: 1000 is first year, 2000 second year and so on. As we
+  move to create more BS and possibly graduate courses we believe we need to help faculty think
+  about the level at which they are teaching courses. It’s unlikely that all courses taken by
+  seniors are taught at a senior level. We hope that this field helps us think about the level
+  of teaching and learning that’s happening in each course.
+
+3. Is the DATE CREATED the date the course was created or the outline?
+
+- We’d hoped it would be the date of course creation. However, the college does not have
+  outlines for many of our courses. Date of outline creation is also useful as we can then see
+  how long it’s been since the course was updated, or determine if enough ‘evolution’ has
+  occurred in a technical field to require a thorough review of a course.
+
+4. Of the pair DATE CREATED and CHECKED/CHANGED are both required?
+   both optional? something else?
+
+- Both are required. Ideally, if we create a course this spring the date of creation will be
+  2014. Annual review of course outlines should be tracked by the checked/changed line. When the
+  outline is reviewed next year the date will be changed to 2015.
+
+5. For DELIVERY METHOD is the element value intended to be free
+   formatted text or is there is specific list of allowed methods?
+
+- At this point we’re trying to survey faculty and determine just how we are delivering courses.
+  Obvious choices: face-to-face, online only, hybrid, face-to-face and lecture capture, etc.
+
+6. In COURSE OUTCOMES the description says, "Consider choosing keywords related to program
+   outcomes and Bloom's taxonomy for level of learning." Is it intended to be two lists: one for
+   program outcomes and one for Bloom's taxonomy, or is it intended to be a single list of
+   keywords? I assume these keywords are free formatted text (not words taken from a specific
+   list).
+
+- Programs will determine the outcome of courses and (hopefully) enter those outcomes as
+  sentences. We are asking that folks use action verbs from Bloom’s taxonomy to indicate the
+  level of teaching and learning for that outcome. For example, “Students will understand…. “
+  vs. “Students will create or synthesize…”
+
+7. In COURSE CONTENT it says, "may be set up as topics covered per week or hours spent on each
+   topic." Does that mean it should be possible to group topics into sections with one section
+   for each week? I'm not clear what the expectation is for people who set up the content as
+   "topics covered per week."
+
+- Intended to be flexible. I often see outlines with 8 – 10 – 14 topics listed. If 14 topics are
+  listed we assume that each topic receives a week’s worth of hours of coverage. Some folks
+  structure outlines with 25 topics and give a number of hours that will be spent on each topic.
+  In the latter case, the total number of hours should equal the number of contact hours in the
+  course.
+
+8. For the SEMESTER element what if a course is offered in the Fall, Spring, *and* Summer? The
+   word "Both" does not seem to apply. Perhaps instead of using "Both" the element should be al
+   ist of semester names.
+
+- I’ve seen Fall, Spring, Summer, or Fall and Spring, or Fall, Summer and Spring.
+
+Do the following elements appear in the catalog?
+  - SHORT TITLE                 no
+  - COURSE LEVEL                no
+  - RESTRICTIONS ON ENROLLMENT  no
+  - SPECIAL FEES                yes
+  - SEMESTER                    yes
+  - GRADED OR P/NP              yes
+  - DELIVERY METHOD             sometimes
+  - ROOM REQUIREMENTS           only if at a non-campus site at this point.
+
+Joan Richmond-Hall, Ph.D. | Director, Sustainable Design & Technology
+                          | Assoc. Professor, Science VERMONT TECH

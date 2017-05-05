@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2003-03-14" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Richard Warren</author>
+    </authors>
+
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-4150</number>
+    <title>Software Engineering</title>
+    <prerequisites>
+      <AND>
+        <OR>
+          <course>CIS-2025</course>
+          <course>CIS-2262</course>
+          <course>CIS-2271</course>
+        </OR>
+        <other>Junior Standing</other>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>Software engineering is chiefly concerned with the application of engineering
+      principles to the all too often chaotic process of software development. The student will
+      learn how the concepts of repeatability, modularity, traceability, maintainability, and
+      reusability (on multiple levels) affect the architecture and design of software systems. The
+      software lifecycle and how it is supported by various methodologies will be explored, as well
+      as the ramifications of differing team sizes to the selection of traditional versus agile
+      methods (e.g., XP, SCRUM, etc.). Finally, the student will be shown how documentation
+      techniques, modeling languages and CASE tools can be used to minimize miscommunications and
+      ensure that the system desired is indeed the system that is eventually built.</description>
+  </summary>
+  <short-title>Software Engineering</short-title>
+  <course-level>4000</course-level>
+  <required-texts>
+    <book>
+      <title>Software Engineering: A Practitioners Approach</title>
+      <edition>Fifth</edition>
+      <authors>
+        <author>Roger S. Pressman</author>
+      </authors>
+      <publisher>McGraw-Hill</publisher>
+      <copyright>2000</copyright>
+    </book>
+    <book>
+      <title>UML in a Nutshell</title>
+      <authors>
+        <author>S.S. Alhir</author>
+      </authors>
+      <publisher>O'Reilly &amp; Associates</publisher>
+      <copyright>1998</copyright>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Perform software maintenance.</outcome>
+    <outcome>Apply the basic methods of software design to software projects.</outcome>
+    <outcome>Understand how CASE tools are used effectively.</outcome>
+    <outcome>Apply a modeling language in the design of software projects.</outcome>
+    <outcome>Distinguish the software design process from the software implementation process.</outcome>
+    <outcome>Utilize object-oriented software design in software projects.</outcome>
+    <outcome>Utilize various methods of software testing.</outcome>
+    <outcome>Work effectively on teams to develop large programs.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="4">Software Design Process</topic>
+    <topic hours="6">Object-oriented Modeling with UML</topic>
+    <topic hours="4">Capturing the System Requirements-Customer Needs</topic>
+    <topic hours="4">Software Development Process</topic>
+    <topic hours="7">Software Design--Methodologies</topic>
+    <topic hours="5">CASE Tools</topic>
+    <topic hours="4">Software Testing</topic>
+    <topic hours="4">Software Quality Assurance</topic>
+    <topic hours="4">Managing Software Projects</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

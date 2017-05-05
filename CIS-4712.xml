@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-20" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Richard Warren</author>
+    </authors>
+    <department-program>Electrical and Computer Engineering Technology</department-program>
+    <number>CIS-4712</number>
+    <title>CPE Project II</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-4711</course>
+        <other>Permission of instructor</other>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="1" laboratory="6" studio="0" recitation="0" study="0"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>Completion and final presentation of the senior project begun in the fall.
+      Regular progress reports are required and a formal presentation is required at the end of
+      the academic year. This presentation occurs in front of students, departmental faculty,
+      and invited guests (including potential employers).</description>
+  </summary>
+  <short-title>CPE Project II</short-title>
+  <course-level>4000</course-level>
+  <course-outcomes>
+    <outcome>Develop a significantly complex computer based system that employs both hardware
+      and software.</outcome>
+    <outcome>Engage in brainstorming, research, specification development, prototype
+      development, analysis, testing, and implementation.</outcome>
+    <outcome>Manage a project including scheduling, budgeting, purchasing, generating status
+      reports, and working on a team.</outcome>
+    <outcome>Prepare and deliver clear and understandable oral presentations with effective use
+      of visual aids.</outcome>
+    <outcome>Distinguish between quality and inferiority, and between being on schedule and
+      being behind schedule.</outcome>
+    <outcome>Identify processes and procedures that should lead to continuous improvement if
+      adhered to.</outcome>
+    <outcome>Document a complex system including the creation of a users manual and the
+      maintenance of a project notebook, and a project web site.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="1">Analysis of alternatives (Trade-off analysis).</topic>
+    <topic hours="1">Status report evaluation and discussion.</topic>
+    <topic hours="1">Status reports.</topic>
+    <topic hours="1">Modularizing &amp; milestones.</topic>
+    <topic hours="2">Technical presentations.</topic>
+    <topic hours="2">Project presentations.</topic>
+    <topic hours="1">Website demonstrations.</topic>
+    <topic hours="2">Project presentations.</topic>
+    <topic hours="1">Status reports.</topic>
+    <topic hours="3">Practice for final presentations.</topic>
+    <topic hours="3">Final presentations.</topic>
+    <topic hours="2">Project demos.</topic>
+  </course-content>
+  <laboratory-studio-outcomes>
+    <summary>Most of the laboratory time is to provide the students the time to execute their
+      projects as they see fit. A few laboratory periods are used for instructional
+      demonstrations, group activities, or presentation rehearsal. The instructors make
+      themselves available for consultation on hardware, software, interfacing, or systems
+      issues during the laboratory time.</summary>
+  </laboratory-studio-outcomes>
+  <laboratory-studio-content>
+    <topic>Self-directed Project Work</topic>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

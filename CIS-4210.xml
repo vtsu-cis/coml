@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2008-11-16" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Craig A. Damon</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-4210</number>
+    <title>Computer Graphics</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-3050</course>
+        <course>MAT-1520</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>The computer generation of realistic images of 2- and 3-dimensional scenes.
+      This course involves substantial computer programming.</description>
+  </summary>
+  <short-title>Computer Graphics</short-title>
+  <course-level>4000</course-level>
+  <course-outcomes>
+    <outcome>Understand the mechanisms used for 2- and 3-D rendering.</outcome>
+    <outcome>Effectively use a mainstream graphic rendering library, such as OpenGL or
+      DirectX.</outcome>
+    <outcome>Write a 3-D rendering program for non-trivial objects or scenes.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="2">Coordinate systems.</topic>
+    <topic hours="3">Coordinate transfomation.</topic>
+    <topic hours="3">Rasterization.</topic>
+    <topic hours="2">Hidden surface.</topic>
+    <topic hours="3">Surface shading.</topic>
+    <topic hours="6">Ray tracing.</topic>
+    <topic hours="3">Texture mapping.</topic>
+    <topic hours="3">Graphics hardware.</topic>
+    <topic hours="6">Graphics libraries.</topic>
+    <topic hours="2">Animation.</topic>
+    <topic hours="6">Special topics as time permits.</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Homework</method>
+    <method>Projects</method>
+    <method>Quizzes</method>
+    <method>Final Exam</method>
+  </evaluation>
+</outline>

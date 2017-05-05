@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" solutionVersion="1.0.0.47" href="file:///\\vtcfiles\docs\ECET\Outlines\COML.xsn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?>
+<outline created="2013-01-03" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Jean F. Hakim</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-3210</number>
+    <title>Introduction to Routing Concepts and Wide Area Networks</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2151</course>
+		 <course>CIS-2230</course> 
+		
+       </AND>
+    </prerequisites>
+    <credits>4</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="2" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>An introduction to wide area and local area routing concepts, methods,
+	fundamental of routing protocols and packet forwarding. Routing protocols such as
+	RIPv1, RIPv2, EIGRP, and OSPF are analyzed. Also discussed are distance vector and 
+	link state routing protocols and their implementation factors in an enterprise network environment. 
+	This course utilizes Cisco networking equipment for lab work and assignments. </description>
+  </summary>
+
+  <short-title>Routing and WANs</short-title>
+  <course-level>3000</course-level>
+  <required-texts>
+    <book>
+      <title>Routing Protocols and Concepts – CCNA Exploration Companion Guide </title>
+     
+      <authors>
+        <author>Rick Graziani</author>
+		<author>Allan Johnson</author>
+       
+      </authors>
+      <publisher>Cisco Press; 1st edition (January 19, 2012)</publisher>
+      <copyright>2012</copyright>
+      <ISBN>978-1587132728</ISBN>
+    </book>
+  </required-texts>
+
+  <course-outcomes>
+    <outcome>Router Startup and Configuration</outcome>
+    <outcome>Gain hands on experience with routing protocols and technologies including RIP, EIGRP, OSPF, VLSM and CIDR.</outcome>
+    <outcome>Configure and deploy routers, switches in an enterprise environment </outcome>
+    <outcome>Develop a complete understanding of routing protocols including RIPv1, RIPv2, EIGRP, Single Area OSPF, VLSM and CIDR. </outcome>
+    <outcome>Gain a comprehensive understanding of the structure and lookup process of the IP routing table   </outcome>
+		
+  </course-outcomes>
+
+  <course-content>
+    <topic hours="2">Networking Overview</topic>
+    <topic hours="2">Intro to Packet Forwarding </topic>
+    <topic hours="3">Static Routing</topic>
+    <topic hours="3">Introduction to Dynamic Routing Protocols .</topic>
+    <topic hours="2">Distance Vector Routing Protocols.</topic>
+    <topic hours="3">RIPv1</topic>
+    <topic hours="2">VLSM and CIDR </topic>
+    <topic hours="3">RIPv2</topic>
+    <topic hours="3">The Routing Table </topic>
+	<topic hours="3">EIGRP</topic>
+	<topic hours="3">Link State Routing Protocols </topic>
+	<topic hours="4">OSPF  </topic>
+	<topic hours="3">ACL </topic>
+	
+  </course-content>
+  
+  <laboratory-studio-outcomes>
+    <summary>In the laboratory the students gain valuable hands-on exposure to Cisco equipment.
+They are able to practice setting up configurations exercising the topics discussed during lecture.
+Students work in teams and are encouraged to collaborate and coordinate in setting up the lab network
+architectures each week. Students work in the new CIS laboratories.</summary>
+  </laboratory-studio-outcomes>
+  
+  <laboratory-studio-content>
+    <topic>Routers</topic>
+    <topic>Switches</topic>
+    <topic>Patch Panels</topic>
+    <topic>RIPv1</topic>
+    <topic>RIPv2</topic>
+    <topic>EIGRP</topic>
+    <topic>OSPF</topic>
+    <topic>WAN protocols</topic>
+    <topic>QoS</topic>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

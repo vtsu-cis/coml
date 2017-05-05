@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="file:///\\vtcfiles\docs\ECET\Outlines\COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-14" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Craig A. Damon</author>
+      <author>Jean F. Hakim</author>
+    </authors>
+    <department-program>Computer and Information Science</department-program>
+    <number>CIS-3312</number>
+    <title>Deploying and Monitoring IT Infrastructure</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2151</course>
+        <course>CIS-3311</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="2" studio="0" recitation="0" study="0"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>A second semester course that covers an indepth study of the systems
+      development, deployment and monitoring of a substantial information technology system. the
+      course considers issues such as rolling versus big bang deployments, transition periods,
+      capacity planning, heterogeneous versus homogenous environments, optimizing deployments
+      and monitoring tools for all forms of software and hardware information
+      technologies.</description>
+  </summary>
+  <short-title>Deploy. IT Infra.</short-title>
+  <course-level>3000</course-level>
+  <required-texts>
+    <book>
+      <title/>
+      <authors>
+        <author/>
+      </authors>
+      <publisher/>
+      <copyright/>
+      <ISBN/>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Develop a deployment plan for a major technology transition.</outcome>
+    <outcome>Direct the deployment of a major system.</outcome>
+    <outcome>Develop a plan for monitoring information technology.</outcome>
+    <outcome>Gain a comprehensive understanding of the systems development process </outcome>
+    <outcome>Work effectively on teams to develop large systems. </outcome>
+    <outcome> Develop a comprehensive systems performance and capacity management
+      plan.</outcome>
+    <outcome/>
+  </course-outcomes>
+  <course-content>
+    <topic hours="5">Requirements development</topic>
+    <topic hours="6">Systems quality assurance process </topic>
+    <topic hours="10">Systems deployment implementation</topic>
+    <topic hours="8">Performance and Capacity planning </topic>
+    <topic hours="4">System Monitoring and Administration</topic>
+    <topic hours="5">The Role of Project Management</topic>
+    <topic hours="4">Systems Maintenance and Support process </topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Homework</method>
+    <method>Projects</method>
+    <method>Presentations</method>
+    <method>Quizzes</method>
+    <method>Final Exam</method>
+  </evaluation>
+</outline>

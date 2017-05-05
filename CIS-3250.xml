@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" solutionVersion="1.0.0.47" href="file:///\\vtcfiles\docs\ECET\Outlines\COML.xsn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?>
+<outline created="2013-01-03" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Jean F. Hakim</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-3250</number>
+    <title>Advanced Network Architectures</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2151</course>
+		 <course>CIS-2230</course> 
+		 <course>CIS-3210</course>
+       </AND>
+    </prerequisites>
+    <credits>4</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="2" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course teaches students how to implement, monitor, deploy and maintain
+	a network in a converged enterprise environment. Students will learn how to plan, configure,
+	and verify the implementation of complex enterprise switching solutions. The course also covers
+	the secure integration of VLANs, WLANs, voice, and video into networks. 
+	Comprehensive labs emphasize hands-on learning and practice to reinforce the skills 
+	learned in class.</description>
+  </summary>
+
+  <short-title>Adv. Network Arch.</short-title>
+  <course-level>3000</course-level>
+  <required-texts>
+    <book>
+      <title>LAN Switching and Wireless – CCNA Exploration</title>
+     
+      <authors>
+        <author>Wayne Lewis</author>
+       
+      </authors>
+      <publisher>Pearson College Div</publisher>
+      <copyright>2012</copyright>
+      <ISBN>978-1-58705-582-9</ISBN>
+    </book><book>
+      <title>Accessing the WAN - CCNA Exploration Companion Guide </title>
+     
+      <authors>
+        <author>Bob Vachon</author>
+       
+      </authors>
+      <publisher>Pearson College Div</publisher>
+      <copyright>2011</copyright>
+      <ISBN>978-1-58713-349-7</ISBN>
+    </book>
+  </required-texts>
+
+  <course-outcomes>
+    <outcome>Design, deploy and manage a high availability network</outcome>
+    <outcome>Management of wireless networks including security and privacy constraints</outcome>
+    <outcome>Implement and deploy voice networks</outcome>
+    <outcome>Understand and gains hands-on experience with VLANs, trunking and VTP</outcome>
+    <outcome>Design and implement high performance networks</outcome>
+    <outcome>Develop a complete understanding of port aggregation, Ether channel, and spanning tree protocol   </outcome>
+  </course-outcomes>
+
+  <course-content>
+    <topic hours="2">Deploying Enterprise Networks.</topic>
+    <topic hours="3">Network Performance </topic>
+    <topic hours="3">VLANs, Trunking and VTP </topic>
+    <topic hours="3">Port Aggregation and EtherChannel .</topic>
+    <topic hours="2">Enterprise VLANs .</topic>
+    <topic hours="3">Distance Vector Routing Protocols.</topic>
+    <topic hours="3">Spanning Tree Protocols and PVST, RSTP , MST </topic>
+    <topic hours="3">Inter-VLAN Routing, Multilayer Switching.</topic>
+    <topic hours="3">High Availability: HSRP, VRRP, GLBP, IRDP </topic>
+	<topic hours="3">IP Telephony </topic>
+	<topic hours="3">Integration of Wireless Lans  </topic>
+	<topic hours="4">Switch and network security  </topic>
+	<topic hours="3">IP Multicast </topic>
+	<topic hours="3">Quality of Service </topic>
+  </course-content>
+  
+  <laboratory-studio-outcomes>
+    <summary>In the laboratory the students gain valuable hands-on exposure to Cisco equipment.
+They are able to practice setting up configurations exercising the topics discussed during lecture.
+Students work in teams and are encouraged to collaborate and coordinate in setting up the lab network
+archietctures each week. Students work in the new CIS laboratories.</summary>
+  </laboratory-studio-outcomes>
+  
+  <laboratory-studio-content>
+    <topic>Routers</topic>
+    <topic>Switches</topic>
+    <topic>Patch Panels</topic>
+    <topic>VTP</topic>
+    <topic>STP</topic>
+    <topic>EtherChannel</topic>
+    <topic>Wireless</topic>
+    <topic>WAN protocols</topic>
+    <topic>QoS</topic>
+    <topic>VLANs</topic>
+    <topic>Trunking</topic>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

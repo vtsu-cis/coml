@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-07-13" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Craig A. Damon</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-4120</number>
+    <title>System Analysis and Design</title>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>This course gives students hands-on experience developing requirements and de-
+      signs for realistic computing systems. These systems may be new software systems,
+      integrated COTS systems, hardware/software composite systems or even hardware only
+      systems. Much of the course time will be spent examining and discussing case studies of
+      real requirements and designs, complementing a few traditional lectures covering new
+      material. Working in small groups of two or three, students will develop requirements and
+      designs for real problems, which will be presented and discussed in class.</description>
+  </summary>
+  <short-title>Sys. Anal. &amp; Design</short-title>
+  <course-level>4000</course-level>
+  <course-outcomes>
+    <outcome>Able to perform system analysis to develop a requirements document</outcome>
+    <outcome>Able to develop a design for a computer system</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="1.5">Review of requirements</topic>
+    <topic hours="6">Traditional requirements documents</topic>
+    <topic hours="3">Alternative requirements documents</topic>
+    <topic hours="1.5">RFP, RFQ</topic>
+    <topic hours="1.5">Sources of requirements</topic>
+    <topic hours="4.5">Presenting requirements</topic>
+    <topic hours="3">Capacity planning</topic>
+    <topic hours="3">Review of design</topic>
+    <topic hours="3">System design</topic>
+    <topic hours="3">COTS</topic>
+    <topic hours="1.5">UML</topic>
+    <topic hours="4.5">Code design</topic>
+    <topic hours="3">Design patterns</topic>
+    <topic hours="3">Presenting designs</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

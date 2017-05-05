@@ -1,0 +1,45 @@
+From pchapin@ecet.vtc.edu Wed Oct  4 15:56:58 2006
+Date: Wed, 4 Oct 2006 15:56:03 -0400
+From: Peter C. Chapin <pchapin@ecet.vtc.edu>
+To: "Menchini, Patricia " <PMenchini@vtc.vsc.edu>
+Cc: draad@vtc.edu
+Subject: Re: XML contract
+
+On Tue, 3 Oct 2006, Menchini, Patricia  wrote:
+
+> We are preparing the contract for the xml schema and info path project.
+> You mention "conversion to XML outlines" as a piece of the process, but
+> did not mention any hours associated with that.  We would like to
+> include this contract, but extend the time.  Do you have any thoughts on
+> this?
+
+As we talked about this morning, it makes sense for the bulk of the conversion work to be done
+in a distributed manner by individuals from the various departments. This is because a) only
+departmental faculty will really know how to fill in the blanks for their courses and b) there
+are a large number of outlines involved and it would be very time consuming for a single
+individual to try and do them all.
+
+However, it makes sense to formalize this process somewhat to be sure that it gets done in a
+timely manner (such as before the next accreditation cycle). To that end I'm willing to
+
++ Do a couple (exact number depending on the circumstances) of presentations, for example to
+  assembly or other interested groups, about the mechanics of preparing the outlines.
+
++ Write a document describing how to prepare and submit outlines.
+
++ Work with indivdual departments, in whatever manner the department feels is reasonable (meet
+  with the department, or talk one-on-one with a particular faculty member or support person) to
+  assist in this process.
+
++ Address glitches in the process and fix bugs as they are discovered in the input form and
+  style sheet.
+
+Most of this work would almost certainly happen in the Spring 2007 semester. I forsee taking the
+bulk of the remainder of this semester to get the system worked out and then we can deploy it
+next semester to prepare outlines for Fall 2007 and beyond.
+
+It's hard to predict how much of this sort of work will be necessary but I'm guessing that it
+will be in the 10 to 20 hour range. I feel that it would be reasonable to include 15 hours for
+this.
+
+Peter

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2006-01-11" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Peter C. Chapin</author>
+    </authors>
+
+    <department-program>Electrical and Computer Engineering Technology</department-program>
+    <number>CIS-2280</number>
+    <title>Perl Programming</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2025</course>
+      </AND>
+    </prerequisites>
+    <credits>2</credits>
+    <graded>true</graded>
+    <time lecture="2" laboratory="0" studio="0" recitation="0" study="4"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>This course continues the student's training in programming by introducing the
+    student to the use of the scripting language Perl. The basic concepts of programming are
+    reviewed using Perl to demonstrate those concepts. The emphasis in the course is on
+    using Perl as a tool to get things done rather than only as a vehicle to explain how to
+    program. Examples and assignments are drawn from topics related to system
+    administration, web programming, and application programming.</description>
+  </summary>
+  <short-title>Perl Programming</short-title>
+  <course-level>2000</course-level>
+  <required-texts>
+    <book>
+      <title>Learning Perl</title>
+      <edition>4th</edition>
+      <authors>
+        <author>Randal L. Schwartz</author>
+        <author>Tom Phoenix</author>
+        <author>Brian D. Foy</author>
+      </authors>
+      <publisher>O'Reilly &amp; Associates</publisher>
+      <copyright>2005</copyright>
+      <ISBN>0-596-10105-8</ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Understand basic programming concepts in Perl.</outcome>
+    <outcome>Understand how a scripting language such as Perl is similar to as well as different
+             from a compiled language such as C.</outcome>
+    <outcome>Use Perl's regular expressions.</outcome>
+    <outcome>Use Perl as a tool for writing administrative scripts.</outcome>
+    <outcome>Use Perl as a web programming tool.</outcome>
+    <outcome>Use Perl as a general purpose application programming language.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="4">Using Linux and Emacs to write and run Perl programs.</topic>
+    <topic hours="2">Basic data types.</topic>
+    <topic hours="3">Control flow.</topic>
+    <topic hours="4">Arrays, lists, and hashes.</topic>
+    <topic hours="4">Functions.</topic>
+    <topic hours="4">Text processing; regular expressions.</topic>
+    <topic hours="5">HTML and CGI programming.</topic>
+    <topic hours="4">Application programming.</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

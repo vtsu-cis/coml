@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2013-01-03" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Peter C. Chapin</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-4040</number>
+    <title>Computer Security</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2151</course>
+        <course>CIS-2230</course>
+        <OR>
+          <course>CIS-2025</course>
+          <course>CIS-2262</course>
+          <course>CIS-2271</course>
+        </OR>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>This course focuses on security issues associated with computers and computer
+      networks. The course starts by covering cryptographic topics such as symmetric and public
+      key cryptography, digital signatures, secure hashes, random number generation, and message
+      authentication codes. Network security topics are also covered including secure protocols
+      (SSL/TLS, IPsec), network attack methods, network authentication protocols (Kerberos), and
+      firewalls. Finally the course covers host security matters such as building secure software,
+      auditing, and intrusion detection.</description>
+  </summary>
+  <short-title>Computer Security</short-title>
+  <course-level>4000</course-level>
+  <required-texts>
+    <book>
+      <title>Cryptography and Network Security. Principles and Practice</title>
+      <edition>fifth</edition>
+      <authors>
+        <author>William Stallings</author>
+      </authors>
+      <publisher>Prentice Hall</publisher>
+      <copyright>2011</copyright>
+      <ISBN>0-13-609704-9</ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Understand cryptographic technology well enough to recommend appropriate use of the
+      technology and to deploy the technology both in the context of system administration and
+      software development. The students should be able to appreciate the mathematical basis of
+      encryption technology, however they need not be able to formally verify the strength or
+      correctness of cryptographic algorithms.</outcome>
+    <outcome>Understand the details of at least one security protocol and be able to implement
+      at least some aspects of it at either the administrative or software developmental
+      capacity.</outcome>
+    <outcome>Understand the technical details of the SSL/TLS protocol. The students should be
+      able to configure and use the protocol, as well as understand its limitations and
+      advantages.</outcome>
+    <outcome>Describe how various network related attacks are performed as well as appropriate
+      counter measures.</outcome>
+    <outcome>Understand the operation of the IPsec network layer protocol and its limitations
+      and advantages.</outcome>
+    <outcome>Understand the purpose and limitations of firewalls.</outcome>
+    <outcome>Understand the Kerberos authentication protocol.</outcome>
+    <outcome>Use appropriate methods to build secure software that avoid buffer overflows, use
+      language security features, and interact with security support libraries (for example,
+      PAM).</outcome>
+    <outcome>Understand the role of intrusion detection (at both the network and host levels),
+      auditing, and similar technologies.</outcome>
+    <outcome>Understand various host based security technologies such as POSIX capabilities,
+      ACLs, and DAC vs MAC. The students should be able to deal with these technologies, at
+      least to a degree, in both an administrative and software development capacity.</outcome>
+    <outcome>Interact with other administrators to evaluate security risks, potential attacks,
+      and appropriate countermeasures.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="3">Block encryption algorithms: DES and AES</topic>
+    <topic hours="2">Encryption modes and cryptographic random number generation</topic>
+    <topic hours="3">Public key encryption systems</topic>
+    <topic hours="2">Secure hashes</topic>
+    <topic hours="3">Security protocols</topic>
+    <topic hours="7">Network protocols (SSL/TLS, and IPSec)</topic>
+    <topic hours="3">Network attack methods and countermeasures, firewalls</topic>
+    <topic hours="3">Kerberos authentication protocol</topic>
+    <topic hours="5">Building secure software (buffer overflows, language specific security
+      features, interacting with security libraries, etc)</topic>
+    <topic hours="6">Host security mechanisms (capabilities, access control lists, discretionary
+      access control, mandatory access control, etc)</topic>
+    <topic hours="3">Security policy and risk assessment</topic>
+    <topic hours="2">Exams</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

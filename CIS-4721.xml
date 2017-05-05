@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2007-01-17" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Craig A. Damon</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-4721</number>
+    <title>CIS Project I</title>
+    <prerequisites>
+      <OR>
+        <other>Senior standing in the BS.CSE program</other>
+        <other>Senior standing in the BS.CIT program</other>
+        <AND>
+          <other>Senior standing in the BS.CPE program</other>
+          <other>Instructor permission</other>
+        </AND>
+      </OR>
+    </prerequisites>
+    <credits>2</credits>
+    <graded>true</graded>
+    <time lecture="1" laboratory="2" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course is a largely self-directed senior project in which students
+      demonstrate their mastery of the subjects covered in the BS.CSE, BS.CIT, or BS.CPE
+      program.</description>
+  </summary>
+  <short-title>CIS Project I</short-title>
+  <course-level>4000</course-level>
+  <course-outcomes>
+    <outcome>Develop the requirements for a sizable software or IT project.</outcome>
+    <outcome>Make appropriate use of time management skills and tools.</outcome>
+    <outcome>Design a moderately complex system that integrates existing and newly developed
+      components.</outcome>
+    <outcome>Effectively present information about a project at a range of technical
+      levels.</outcome>
+    <outcome>Document the design and usage of a software system.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="3">Course introduction.</topic>
+    <topic hours="3">Gathering requirements.</topic>
+    <topic hours="3">Working with customers.</topic>
+    <topic hours="3">Lifecycle implications of technical decisions.</topic>
+    <topic hours="3">Presenting technical information orally and in writing.</topic>
+    <topic hours="3">Design presentations.</topic>
+    <topic hours="3">Design reviews.</topic>
+  </course-content>
+  <laboratory-studio-outcomes>
+    <summary>This course is defined by its lab. See the course outcomes above.</summary>
+  </laboratory-studio-outcomes>
+  <laboratory-studio-content>
+    <summary>Self-directed project group work with instructor support.</summary>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Projects</method>
+    <method>Presentations</method>
+  </evaluation>
+</outline>

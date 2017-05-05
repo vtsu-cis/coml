@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2013-01-03" reviewed="2017-04-25" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Peter C. Chapin</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-3012</number>
+    <title>C++ Programming</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2260</course>
+        <OR>
+          <course>CIS-2010</course>
+          <course>CIS-2025</course>
+        </OR>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" recitation="0" laboratory="0" studio="0" study="6"/>
+    <semesters>
+      <semester>Spring</semester>
+    </semesters>
+    <description>The course covers the syntax and semantics of the major C++ features. Topics
+    include data abstraction, object oriented programming, and generic programming (including
+    the use of the standard template library). C++ 2011 is used and features added to that
+    standard are described (move semantics, std::thread). Discussion of C++ best practices and
+    design techniques is done throughout.</description>
+  </summary>
+
+  <short-title>C++ Programming</short-title>
+  <course-level>3000</course-level>
+  <required-texts>
+    <book>
+      <title>C++ Primer</title>
+      <edition>Fifth Edition</edition>
+      <authors>
+        <author>Stanley B. Lippman</author>
+        <author>Josee Lajoie</author>
+        <author>Barbara E. Moo</author>
+      </authors>
+      <publisher>Addison-Wesley</publisher>
+      <copyright>2013</copyright>
+      <ISBN>0-321-71411-3</ISBN>
+    </book>
+  </required-texts>
+
+  <course-outcomes>
+    <outcome>The student is able to read and write small but useful C++ programs that use the
+    C++ standard library I/O facilities, strings, and STL containers.</outcome>
+
+    <outcome>The student understands how basic object oriented programming is done in
+    C++</outcome>
+
+    <outcome>The student has a introductory understanding of how to develop library templates in
+    the style of the STL.</outcome>
+
+    <outcome>The student understands some important C++ "best practices" and is able to apply
+    them.</outcome>
+  </course-outcomes>
+
+  <course-content>
+    <topic hours="5">Basic concepts: references, const, function overloading.</topic>
+    <topic hours="6">C++ library: IOStream, std::string, std::vector.</topic>
+    <topic hours="6">Data abstraction in C++: classes, constructors, destructors, operator
+    overloading.</topic>
+    <topic hours="6">OOP in C++, including an introduction to multiple inheritance.</topic>
+    <topic hours="6">STL containers, iterators, algorithms.</topic>
+    <topic hours="6">Templates.</topic>
+    <topic hours="7">Advanced topics as time allows.</topic>
+  </course-content>
+  
+  <delivery-method>online</delivery-method>
+</outline>

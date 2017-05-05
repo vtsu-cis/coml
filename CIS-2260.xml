@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2002-05-01" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Sam Colwell</author>
+    </authors>
+
+    <department-program>Electrical and Computer Engineering Technology</department-program>
+    <number>CIS-2260</number>
+    <title>Object Oriented Programming</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2025</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course introduces students to the concepts of programming with abstract data
+      types and object-oriented programming. It uses C++ to cover classes, inheritance, and
+      polymorphism. The course also builds on the prerequisites to provide students with more
+      advanced exposure to software design, implementation, debugging, and
+    documentation.</description>
+  </summary>
+  <short-title>OOP</short-title>
+  <course-level>2000</course-level>
+  <required-texts>
+    <book>
+      <title>Absolute C++</title>
+      <edition>second</edition>
+      <authors>
+        <author>Walter Savitch</author>
+      </authors>
+      <publisher>Addison Wesley</publisher>
+      <copyright>2006</copyright>
+      <ISBN>0-321-33023-4</ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Understand, modify, and write programs in an object oriented language.</outcome>
+    <outcome>Understand basic characteristics of all object oriented languages including classes,
+      data encapsulation, reusability, derived classes, and virtual functions.</outcome>
+    <outcome>Understand the use of references and the const keyword as they pertain to C++.</outcome>
+    <outcome>Understand the use of C++ streams and stream operators.</outcome>
+    <outcome>Understand the benefits of deriving classes from a common base class and then extending
+      that class.</outcome>
+    <outcome>Understand and use operator overloading.</outcome>
+    <outcome>Understand how templates are used and how to create them.</outcome>
+    <outcome>Understand how various STL container classes and their iterators are used.</outcome>
+    <outcome>Understand how namespaces are used to organize declarations in large programs.</outcome>
+    <outcome>Understand how and when to report/handle errors via exceptions.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="6">Introduction to UNIX, the command line, and the Emacs editor</topic>
+    <topic hours="3">References and const</topic>
+    <topic hours="3">IOstreams and fstreams</topic>
+    <topic hours="6">Classes (constructors, destructors, encapsulation, access functions)</topic>
+    <topic hours="3">Operator overloading</topic>
+    <topic hours="3">Templates</topic>
+    <topic hours="3">STL container classes</topic>
+    <topic hours="3">Iterators</topic>
+    <topic hours="3">Debugger</topic>
+    <topic hours="5">Inheritance</topic>
+    <topic hours="4">Virtual functions (interface vs. implementation classes)</topic>
+    <topic hours="3">Quizzes and exams</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-04-08" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Craig A. Damon</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-2271</number>
+    <title>Java Programming</title>
+    <credits>4</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="2" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course introduces the basic concepts and techniques of Java, including
+      object oriented programming (OOP). Essential topics include program structure; primitive
+      and String data types; operators; expressions; control structures; static methods
+      (including an introduction to recursion); exception handling; use of library packages; and
+      top-down design. OOP concepts include classes and objects; instance methods and
+      constructors; inheritance; polymorphism; and an introduction to object oriented design.
+      Time permitting, the course may cover the basics of graphical user interface (GUI)
+      construction.</description>
+  </summary>
+  <short-title>Java Programming</short-title>
+  <course-level>1000</course-level>
+  <required-texts>
+    <book>
+      <title>Java for Everyone (Late Objects)</title>
+      <edition>second</edition>
+      <authors>
+        <author>Cay Horstmann</author>
+      </authors>
+      <publisher>Wiley</publisher>
+      <copyright>2013</copyright>
+      <ISBN>978-1-118-06331-6</ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Understand and be able to use the language constructs listed in the course content section.</outcome>
+    <outcome>Able to contribute as a coder on a Java project.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="5.0">simple programming; variables, types and assignments; method calls</topic>
+    <topic hours="4.0">if statements</topic>
+    <topic hours="5.0">loops</topic>
+    <topic hours="3.0">arrays</topic>
+    <topic hours="6.0">objects, fields and new</topic>
+    <topic hours="3.0">writing classes</topic>
+    <topic hours="4.0">collections and iterators</topic>
+    <topic hours="2.0">exceptions</topic>
+    <topic hours="1.0">packages</topic>
+    <topic hours="2.0">simple inheritance</topic>
+    <topic hours="3.0">recursion</topic>
+    <topic hours="1.0">events</topic>
+  </course-content>
+  <laboratory-studio-content>
+    <topic hours="2.0">Eclipse Programming Environment</topic>
+    <topic hours="2.0">Expressions, Types and Assignments</topic>
+    <topic hours="2.0">Ifs and Simple Programs</topic>
+    <topic hours="2.0">More control structure practice</topic>
+    <topic hours="2.0">Writing simple classes and fields</topic>
+    <topic hours="2.0">More writing classes</topic>
+    <topic hours="2.0">Getters and setters</topic>
+    <topic hours="2.0">Arrays and loops</topic>
+    <topic hours="2.0">More Arrays and Loops</topic>
+    <topic hours="2.0">Collections</topic>
+    <topic hours="2.0">More Collections</topic>
+    <topic hours="2.0">Simple UI Programming</topic>
+    <topic hours="2.0">More UI Programming</topic>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

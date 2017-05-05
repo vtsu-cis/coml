@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2005-01-01" reviewed="2014-02-04" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Anna Poplawski</author>
+      <author>C. J. Wang</author>
+    </authors>
+
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-2025</number>
+    <title>C Programming</title>
+    <prerequisites>
+      <AND>
+        <other>None</other>
+      </AND>
+    </prerequisites>
+    <credits>4</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="3" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Spring</semester>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course teaches students to write programs using the C language. All
+      fundamental features of C are covered, including arrays, functions, pointers, file I/O,
+      string manipulation, and preprocessor directives. In addition, this course will emphasize
+      good software design techniques, programming style, and documentation. No prior programming
+      experience is required.</description>
+  </summary>
+  <short-title>C Programming</short-title>
+  <course-level>2000</course-level>
+  <required-texts>
+    <book>
+      <title>Programming in C</title>
+      <edition>4th</edition>
+      <authors>
+        <author>Steven Kochan</author>
+      </authors>
+      <ISBN>0321776410</ISBN>
+    </book>
+  </required-texts>
+  
+  <course-outcomes>
+    <outcome>Design simple programs to accomplish the tasks specified.</outcome>
+    <outcome>Write complete C programs that use the basic features of C, including variables,
+      arrays, strings, conditional expressions, loops, functions, and pointers.</outcome>
+    <outcome>Use each of the following more advanced features of the C language in one or more
+      programs: structures, type definitions, file I/O, string library functions, command line
+      arguments, preprocessor directives, and memory allocation.</outcome>
+    <outcome>Write a C program that is constructed from more than one source file.</outcome>
+    <outcome>Compile and run C programs in a Windows environment.</outcome>
+    <outcome>Debug simple C programs.</outcome>
+  </course-outcomes>
+  
+  <course-content>
+    <topic hours="3">Variables, assignment statements, math expressions, printf, scanf</topic>
+    <topic hours="3">Function calls: math, I/O, random numbers, and other functions</topic>
+    <topic hours="2">Operators, expressions, precedence, type conversion</topic>
+    <topic hours="5">Control flow statements and program design (if, if... else..., for, while, do,
+      switch)</topic>
+    <topic hours="4">Arrays and strings</topic>
+    <topic hours="1">Sorting algorithm</topic>
+    <topic hours="4">Pointers, memory allocation</topic>
+    <topic hours="4">Structures, pointers to structures</topic>
+    <topic hours="5">Writing functions, using multiple source files</topic>
+    <topic hours="1">Linked lists</topic>
+    <topic hours="2">File I/O</topic>
+    <topic hours="2">String library functions</topic>
+    <topic hours="2">Command line arguments</topic>
+    <topic hours="1">Typedef, Enumerations</topic>
+    <topic hours="2">Macros, preprocessor directives</topic>
+    <topic hours="2">Hour exams</topic>
+    <topic hours="1">Review for final</topic>
+  </course-content>
+  <laboratory-studio-outcomes>
+    <summary>Students will use what they are learning in lecture to write programs that are
+      somewhat interesting and complex. Program design, proper style, and program testing will
+      be emphasized. Debugging techniques will also be taught.</summary>
+  </laboratory-studio-outcomes>
+  <laboratory-studio-content>
+    <topic>Compiling code, Writing simple programs</topic>
+    <topic>Computation using ints and floats</topic>
+    <topic>Calling functions, using characters</topic>
+    <topic>Loops and if statements</topic>
+    <topic>Switch statements and arrays</topic>
+    <topic>Sorting</topic>
+    <topic>Writing functions</topic>
+    <topic>Functions in multiple source files</topic>
+    <topic>Pointers and arrays</topic>
+    <topic>Structures</topic>
+    <topic>Pointers, arrays, and structures</topic>
+    <topic>Pointers, arrays, and structures</topic>
+    <topic>Pointers, arrays, and structures</topic>
+    <topic>File I/O</topic>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Attendance</method>
+    <method>Participation</method>
+    <method>Exams</method>
+    <method>Quizzes</method>
+    <method>Homework</method>
+    <method>Lab Reports</method>
+    <method>Final Exam</method>
+  </evaluation>
+</outline>

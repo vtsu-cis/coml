@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FILE        : COML.xsd
+     LAST REVISED: 2014-02-04
+     AUTHOR      : (C) Copyright 2014 by Peter C. Chapin
+     SUBJECT     : XML schema for Course Outline Markup Language (COML)
+
+{ How do I put this under the GPL or similar license? }
+
+TO DO
+
++ The required texts (and optional texts) should probably be generalized to include support for
+  non-textbook materials.
+  
++ The outcomes list type should allow each outcome to be associated with a keyword (that will
+  connect the outcome to some kind of "program outcome" defined elsewhere).
+  
++ Do we want to allow the instance documents to assign a percentage to each evaluation method in
+  an evaluation list?
+-->
+
+<xs:schema targetNamespace="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns="http://www.vtc.vsc.edu/COML_0.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml" elementFormDefault="qualified" xml:lang="en-US">
+
+  <xs:annotation>
+    <xs:documentation>This schema defines a campus-wide standard for course outlines at Vermont
+      Technical College. It was developed by Peter C. Chapin in consultation with the VTC
+      faculty assembly.</xs:documentation>
+  </xs:annotation>
+
+  <!--ROOT ELEMENT-->
+
+  <xs:element name="outline" type="outlineType">
+    <xs:annotation>
+      <xs:documentation>The outline element is the main container for an
+        outline.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+
+  <!--COMPLEX TYPES FOR THE ROOT ELEMENTS-->
+
+  <xs:complexType name="outlineType">
+    <xs:annotation>
+      <xs:documentation> An outline consists of a summary element that collects together the
+        basic information about a course followed by elements that describe the course's content
+        in more detail.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="summary" type="summaryType"/>
+      <xs:element name="short-title" type="shortTitleType"/>
+      <xs:element name="course-level" type="courseLevelType"/>
+      <xs:element name="restrictions" type="restrictionsType" minOccurs="0"/>
+      <xs:element name="required-texts" type="textsType" minOccurs="0"/>
+      <xs:element name="optional-texts" type="textsType" minOccurs="0"/>
+      <xs:element name="course-outcomes" type="outcomeListType"/>
+      <xs:element name="course-content" type="topicListType"/>
+      <xs:element name="laboratory-studio-outcomes" type="outcomeListType" minOccurs="0"/>
+      <xs:element name="laboratory-studio-content" type="topicListType" minOccurs="0"/>
+      <xs:element name="delivery-method" type="deliveryMethodType"/>
+      <xs:element name="evaluation" type="evaluationListType" minOccurs="0"/>
+      <xs:element name="room-requirements" type="xs:string" minOccurs="0"/>
+      <xs:element name="additional-information" type="xs:string" minOccurs="0"/>
+      <xs:element name="internal-comments" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="created" type="xs:date" use="required"/>
+    <xs:attribute name="reviewed" type="xs:date"/>
+  </xs:complexType>
+
+  <xs:complexType name="summaryType">
+    <xs:annotation>
+      <xs:documentation>An outline summary contains information about the course that would
+        normally appear in a catalog entry for that course.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="authors" type="authorsType"/>
+      <xs:element name="department-program" type="xs:string"/>
+      <xs:element name="number" type="courseNumberType"/>
+      <xs:element name="title" type="courseTitleType"/>
+      <xs:element name="prerequisites" type="conditionType" minOccurs="0"/>
+      <xs:element name="corequisites" type="conditionType" minOccurs="0"/>
+      <xs:element name="credits" type="xs:int"/>
+      <xs:element name="graded" type="xs:boolean"/>
+      <xs:element name="time" type="timeType"/>
+      <xs:element name="semesters" type="semestersType"/>
+      <xs:element name="special-fees" type="specialFeesType" minOccurs="0"/>
+      <xs:element name="description" type="courseDescriptionType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="authorsType">
+    <xs:annotation>
+      <xs:documentation>This type defines a list of author elements. Each author element is free
+        formatted text. An author of an outline is a person who originally wrote the outline or
+        who significantly updated the outline.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="author" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="courseNumberType">
+    <xs:annotation>
+      <xs:documentation>This type describes the format of course numbers. In the Vermont State
+        College system all course numbers have the form AAA-XXXX where "AAA" is a three
+        uppercase letter area identifier and "XXXX" is a four digit course
+        number.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{3}-[0-9]{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="courseTitleType">
+    <xs:annotation>
+      <xs:documentation>This type describes the format of course titles. It supports free
+        formatted text but limits the length of a course title to 55 characters. This is done so
+        that titles display properly in the catalog, on the web site, and in other
+        places.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".{1,55}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="conditionType">
+    <xs:annotation>
+      <xs:documentation>This type describes prerequisite or co-requisite conditions. It allows
+        for Boolean expressions (without negation) of course numbers and free formatted text
+        fragments. The text fragments are intended to contain phrases such as "Senior Standing"
+        or "Permission of the Instructor" or similar things. </xs:documentation>
+    </xs:annotation>
+    <xs:choice>
+      <xs:element name="AND" type="ANDType"/>
+      <xs:element name="OR" type="ORType"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <xs:complexType name="ANDType">
+    <xs:annotation>
+      <xs:documentation>The condition is satisfied only if all the children of this element are
+        satisfied.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence maxOccurs="unbounded">
+      <xs:choice>
+        <xs:element name="course" type="courseNumberType"/>
+        <xs:element name="other" type="xs:string"/>
+        <xs:element name="OR" type="ORType"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ORType">
+    <xs:annotation>
+      <xs:documentation>The condition is satisfied if any of the children of this element are
+        satisfied.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence maxOccurs="unbounded">
+      <xs:choice>
+        <xs:element name="course" type="courseNumberType"/>
+        <xs:element name="other" type="xs:string"/>
+        <xs:element name="AND" type="ANDType"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="timeType">
+    <xs:annotation>
+      <xs:documentation>This type provides information about the amount of time the course
+        consumes per week.</xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="lecture" type="xs:float" use="required"/>
+    <xs:attribute name="laboratory" type="xs:float" use="required"/>
+    <xs:attribute name="studio" type="xs:float" use="required"/>
+    <xs:attribute name="recitation" type="xs:float" use="required"/>
+    <xs:attribute name="study" type="xs:float" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="semestersType">
+    <xs:annotation>
+      <xs:documentation>This type defines a list semester elements. Each contained semester
+        element specifies one semester in which the course is (usually)
+        offered.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="semester" type="semesterType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="semesterType">
+    <xs:annotation>
+      <xs:documentation>This type defines the allowed values of a semester.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="Fall|Spring|Summer"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="specialFeesType">
+    <xs:annotation>
+      <xs:documentation>This type describes the format of special fees. They are a restriction
+        of string that matches decimal dollars notation.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\$\d+\.\d\d"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="courseDescriptionType">
+    <xs:annotation>
+      <xs:documentation>This type describes the format of course catalog descriptions. It
+        supports free formatted text but the size of the description should be limited to 150
+        words for purposes of the catalog. Courses that are shared with other VSC institutions
+        must have consistent descriptions in all VSC catalogs mentioning the
+        course.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <!-- <xs:pattern value=".{1,750}"/> -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="shortTitleType">
+    <xs:annotation>
+      <xs:documentation>This type describes an abbreviated format for the course title.
+        Abbreviated formats occur in certain contexts where there may be insufficient space for
+        the full title (registration forms, transcripts, etc).</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".{1,22}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="courseLevelType">
+    <xs:annotation>
+      <xs:documentation>This type describes the level at which the course is taught. Although
+        the level can frequently be inferred from the course number, there are situations where,
+        for historical reasons, the number does not accurately reflect the
+        level.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[123456]000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="restrictionsType">
+    <xs:annotation>
+      <xs:documentation>This type defines a list of enrollment restrictions. Each restriction is
+        free formatted text. An enrollment restriction is intended to cover issues such if the
+        course is only open to students in a particular department or if there are physical
+        issues students must satisfy to take the course. Elements with this type can be used to
+        apply restrictions above and beyond those normally handled by
+        prerequisites.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="restriction" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="textsType">
+    <xs:annotation>
+      <xs:documentation>This type describes the bibliographic information of a text book or
+        similar resource. All of the child elements are optional, allowing for incomplete
+        information.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence maxOccurs="unbounded">
+      <xs:choice>
+        <xs:element name="book">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string"/>
+              <xs:element name="edition" type="xs:string" minOccurs="0"/>
+              <xs:element name="authors" type="authorsType"/>
+              <xs:element name="publisher" type="xs:string" minOccurs="0"/>
+              <xs:element name="copyright" type="xs:string" minOccurs="0"/>
+              <xs:element name="ISBN" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="outcomeListType">
+    <xs:annotation>
+      <xs:documentation>This type represents a list of educational outcomes. The list consists
+        of an optional header followed by a list of outcomes or outcome groups. Each outcome
+        group is itself a list of outcomes, thus supporting an arbitrarily deep outline
+        structure. It is suggested that action verbs from Bloom's taxonomy be used to describe
+        outcomes (or else words relevant to the program's accreditation
+        requirements).</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="summary" type="xs:string" minOccurs="0"/>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:choice>
+          <xs:element name="outcome" type="xs:string"/>
+          <xs:element name="outcome-group" type="outcomeListType"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="topicListType">
+    <xs:annotation>
+      <xs:documentation>This type represents a list of topics defining the content of a course
+        component. The list consists of an optional header followed by a list of topics or topic
+        groups. Each topic group is itself a list of topics, thus supporting an arbitrarily deep
+        outline structure. Each topic can have a certain number of hours associated with it.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="summary" type="xs:string" minOccurs="0"/>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:choice>
+          <xs:element name="topic">
+            <xs:complexType>
+              <xs:simpleContent>
+                <xs:extension base="xs:string">
+                  <xs:attribute name="hours" type="xs:float" use="optional"/>
+                </xs:extension>
+              </xs:simpleContent>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="topic-group" type="topicListType"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="deliveryMethodType">
+    <xs:restriction base="xs:string">
+      <!-- <xs:pattern value="face-to-face|online|hybrid"/> -->
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="evaluationListType">
+    <xs:annotation>
+      <xs:documentation>This type defines a list of evaluation methods.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="method" type="evaluationMethodType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="evaluationMethodType">
+    <xs:annotation>
+      <xs:documentation>This type defines the possible evaluation methods that can be used in an
+        evaluation list.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Attendance"/>
+      <xs:enumeration value="Participation"/>
+      <xs:enumeration value="Exams"/>
+      <xs:enumeration value="Quizzes"/>
+      <xs:enumeration value="Homework"/>
+      <xs:enumeration value="Lab Reports"/>
+      <xs:enumeration value="Lab Quizzes"/>
+      <xs:enumeration value="Papers"/>
+      <xs:enumeration value="Projects"/>
+      <xs:enumeration value="Presentations"/>
+      <xs:enumeration value="Final Exam"/>
+      <xs:enumeration value="Service Learning"/>
+      <xs:enumeration value="Other"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

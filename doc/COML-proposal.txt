@@ -1,0 +1,114 @@
+From pchapin@vtc.vsc.edu Fri Aug 18 06:52:10 2006
+Date: Tue, 15 Aug 2006 07:17:54 -0400
+From: Peter C. Chapin <pchapin@vtc.vsc.edu>
+To: Patricia Menchini <pmenchini@vtc.vsc.edu>
+Cc: ssabol@vtc.vsc.edu
+Subject: XML course outline proposal.
+
+Hello! When we last met you asked me to think over what would be involved in implementing
+something useful in the XML course outline project. I understood you to mean that you were
+interested in specifics about deliverables and the corresponding time and money required. I have
+reflected on this issue and have come up with the following proposal.
+
+Minimally we would want to be able to enter the outlines into appropriate XML documents and then
+display those outlines in a web browser. To accomplish this, the following steps would be
+necessary:
+
++ Prepare an XML schema definition based on whatever the faculty assembly approves for course
+  outline content. This document formally defines what a course outline contains and specifies
+  constraints on the content.
+
++ Prepare an InfoPath form that allows a non-specialist to enter or edit course outline data.
+  InfoPath is part of Microsoft Office and so should be widely available around campus. Note
+  that InfoPath will use the schema document above to ensure that only valid outlines are
+  created.
+
++ Prepare a style sheet that allows the XML outlines to be converted to HTML for presentation on
+  the web.
+
++ Provide support for faculty (and staff) using InfoPath.
+
+I estimate the following times:
+
++ Prepare an XML schema    :  5 hours
++ Prepare an InfoPath form : 15 hours
++ Prepare a style sheet    : 10 hours
++ Provide support          :  5 hours
+
+This comes to a total of 35 hours. At $25/hour the cost would be $875.
+
+This estimate does not include any time for converting existing outlines. As we talked about
+this conversion will probably require human judgment and thus can't be done automatically.
+Furthermore it would be ideal if the instructor for a course converted that course's outline. I
+propose that we make a repository for outlines on the Windows server and allow certain people
+(all faculty? department chairs?) write access to that repository. As outlines are updated
+during the normal course of events, they can be converted and added to this repository.
+
+I'd be willing to work on the project above. Because I already have a very full schedule it
+would take a number of weeks to complete. However, I could have it done by the end of the fall
+2006 semester.
+
+One of the advantages of having course outlines in an XML format is that it enables us to use
+software to process the outlines. I have identified two tools that would be of interest.
+
+1. A tool that extracts from the outlines the information that must also be in the catalog. This
+   tool should have the option of extracting only the information that has changed since the
+   last time it was run. I'm visualizing that the tool will format this information into an
+   email message for Lisa Helme. I *don't* propose that the tool automatically try to
+   incorporate outline information directly into the catalog. That would be significantly more
+   difficult and anyway Lisa might want to assert editorial control over the content.
+
+2. A tool that automatically connects course objectives in the outlines to program objectives
+   for the various programs. I know that ABET is interested in having these connections
+   documented for the engineering technology programs. I understand that other programs have
+   similar requirements. It is a little unclear to me how to make this work well, but the
+   potential is there to simplify, at least a little, some of the documentation requirements we
+   face regarding accreditation visits. Note that this tool would require the human outline
+   author to specify, in some way, how each course object relates to the program objectives. The
+   tool would only organize this information and check it for consistency (for example, verify
+   that every program objective has at least one course objective supporting it).
+
+I estimate that these tools would require me about 20 hours each. I'd be willing to work on one
+or both of them as well, but the time to completion would spill into the spring semester. There
+may be alternative ways of getting these tools built. For example the BS.CPE students take a
+software engineering class during which they are assigned a software development project. I
+don't teach that class but I could talk to the instructor to see if either of the tools above
+would be a suitable project. If so, we may be able to get our students to build one or both of
+the tools while earning course credit at the same time. However, the tools might not be suitable
+for the goals of the course, so I can't promise that this will work. Another possibility is the
+Computer Club. Although the club can only work on projects as time allows, if a club member took
+an interest in this problem he or she might prove to be an effective resource. I am the club
+adviser and I could bring this matter before the club if desired.
+
+There are additional directions this initiative could take down the road. Some of them we have
+talked about already. Some of them are quite ambitious.
+
++ We could set up a revision control system to track modifications to the course outlines... or
+  for that matter any other document set we desire to track. The IT department might be able to
+  help with some of the required server management as part of their normal duties.
+
++ We could construct additional tools for processing course outlines. I don't know right now
+  what other kinds of processing would be desirable, but other people may have ideas about that.
+
++ We could study other document types used by VTC and see if there would be value converting
+  other kinds of documents to an XML format.
+
++ We could study the whole issue of information work flow and deploy some sort of work flow
+  management tool if that would be useful. For example, when items are purchased there is first
+  a requisition that must be signed by various people and then a PO is generated. There are
+  special tools that make it easy to track and manage this kind of information as it moves
+  around the organization. In fact InfoPath is intended to play a role in exactly this sort of
+  work flow management (hence the name "InfoPath"). One could imagine a system where a person
+  enters a purchase requisition into an XML document using InfoPath and then routes that
+  document to their department chair for approval. The department chair digitally signs the
+  document (the XML standard provides a way to digitally sign documents or parts of documents)
+  and then forwards the document to the dean, etc. If the document needs to be printed it is
+  first styled using XML technology. Finally the document could be entered into an XML database
+  where it could later be retrieved, if necessary, with an appropriate searches. This is the
+  world we are moving towards by introducing XML into our business process. Realizing this
+  potential fully could be seen as a long term goal of the course outline experiment.
+
+Feel free to share this note with anyone who might be interested. I have taken the liberty to CC
+the faculy assembly moderator for his information.
+
+Peter

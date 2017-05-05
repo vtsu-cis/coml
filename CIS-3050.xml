@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2005-06-02" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Peter C. Chapin</author>
+    </authors>
+
+    <department-program>Electrical and Computer Engineering Technology</department-program>
+    <number>CIS-3050</number>
+    <title>Algorithms and Data Structures</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2260</course>
+        <OR>
+          <course>CIS-2010</course>
+          <course>CIS-2025</course>
+        </OR>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course focuses primarily on the implementation of various important
+      algorithms and data structures. It contains some theory, but the theory content is
+      minimized in favor of a more rigorous treatment of implementation techniques. The course
+      covers classic topics such as lists, trees, hash tables, graphs, sorting, and string
+      matching. It also covers selected other topics as time allows such as encryption, data
+      compression, and image processing.</description>
+  </summary>
+
+  <short-title>Alg &amp; Data Structures</short-title>
+  <course-level>3000</course-level>
+  <required-texts>
+    <book>
+      <title>Data Structures and Algorithms in C++</title>
+      <authors>
+        <author>Goodrich</author>
+        <author>Tamassia</author>
+        <author>Mount</author>
+      </authors>
+      <publisher>John Wiley &amp; Sons, Inc</publisher>
+      <copyright>2004</copyright>
+      <ISBN>0-471-20208-8</ISBN>
+    </book>
+  </required-texts>
+
+  <course-outcomes>
+    <outcome>Write a production quality implementation of an algorithm or data structure using
+      C++ following the style of the standard template library.</outcome>
+    <outcome>Understand the operation of several sorting algorithms.</outcome>
+    <outcome>Understand the operation of linked lists, binary search trees, and hash tables.</outcome>
+    <outcome>Understand the operation of at least one graph algorithm.</outcome>
+    <outcome>Understand the concepts of exception safe coding and be able to provide exception
+      safety if necessary.</outcome>
+    <outcome>Write a professional quality test program to exercise library code.</outcome>
+    <outcome>Understand the concepts of, and some of the mathematical background for, asymptotic
+      running time and recurrences.</outcome>
+    <outcome>Read and understand a theoretical description of an algorithm or data structure,
+      along with its proofs of correctness and performance characteristics.</outcome>
+  </course-outcomes>
+
+  <course-content>
+    <topic hours="5">Review of C++</topic>
+    <topic hours="4">Sorting: insertion sort and merge sort</topic>
+    <topic hours="4">Asymptotic running time; recurrences</topic>
+    <topic hours="4">Sorting: heap sort, using heaps as priority queues, and quick sort</topic>
+    <topic hours="3">Linked lists</topic>
+    <topic hours="5">Binary search trees</topic>
+    <topic hours="5">Hash table (both chaining and open addressing)</topic>
+    <topic hours="5">Graph algorithms</topic>
+    <topic hours="4">Implementation topics (exceptions, testing)</topic>
+    <topic hours="3">Selected topics, time allowing</topic>
+  </course-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>

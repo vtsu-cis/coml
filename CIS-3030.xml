@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-04-05" reviewed="2015-02-28" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Peter C. Chapin</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-3030</number>
+    <title>Programming Languages</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2260</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>This course covers fundamental concepts in programming language design from the
+      programmer's perspective. Topics include the syntactic representation of programs,
+      functional programming, static vs dynamic programming languages, selected advanced object
+      oriented topics, and an introduction to the theory of computation as it applies to
+      programming languages. Students will gain useful experience with at least two new languages
+      (one chosen by the instructor and one chosen by the student).</description>
+  </summary>
+  <short-title>Programming Languages</short-title>
+  <course-level>3000</course-level>
+  <required-texts>
+    <book>
+      <title>Concepts of Programming Languages</title>
+      <edition>ninth</edition>
+      <authors>
+        <author>Robert W. Sebesta</author>
+      </authors>
+      <publisher>Addison-Wesley</publisher>
+      <copyright>2009</copyright>
+      <ISBN>978-0-13-607347-5</ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Write and analyze BNF grammar notation.</outcome>
+    <outcome>Understand the alternatives for language translation (compilation, interpretation,
+      and virtual execution environments).</outcome>
+    <outcome>Demonstrate proficiency with functional programming.</outcome>
+    <outcome>Understand the differences and relative advantages of static vs dynamic programming
+      languages.</outcome>
+    <outcome>Understand different approaches to storage management as provided by programming
+      languages.</outcome>
+    <outcome>Learn a new language readily.</outcome>
+    <outcome>Understand how to select the language best suited for a given task.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="2">Introduction, language paradigms.</topic>
+    <topic hours="2">Relationship between machine architectures and programming
+      languages.</topic>
+    <topic hours="4">Syntax, translation, and BNF.</topic>
+    <topic hours="3">Language characteristics and semantics.</topic>
+    <topic hours="3">Storage Management.</topic>
+    <topic hours="6">Functional Programming.</topic>
+    <topic hours="4">Inheritance, multiple inheritance, and its variations.</topic>
+    <topic hours="4">Dynamic vs static programming languages.</topic>
+    <topic hours="2">Turing machines.</topic>
+    <topic hours="12">Programming language study (language(s) chosen by instructor)</topic>
+  </course-content>
+  <delivery-method>online</delivery-method>
+</outline>

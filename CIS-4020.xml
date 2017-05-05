@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2010-04-05" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Peter C. Chapin</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-4020</number>
+    <title>Operating Systems</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2230</course>
+        <course>CIS-3050</course>
+      </AND>
+    </prerequisites>
+    <credits>4</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="2" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+    </semesters>
+    <description>In this course students study the internal workings of modern operating
+      systems. Topics include multiprocessing, memory management, file systems, and device
+      drivers. Distributed operating systems and real time operating systems are also
+      introduced. As part of this course students write a kernel module and/or device driver for
+      an operating system chosen by the instructor.</description>
+  </summary>
+  <short-title>Operating Systems</short-title>
+  <course-level>4000</course-level>
+  <required-texts>
+    <book>
+      <title>Operating System Concepts</title>
+      <edition>seventh</edition>
+      <authors>
+        <author>Silberschatz</author>
+        <author>Galvin</author>
+        <author>Gagne</author>
+      </authors>
+      <publisher>John Wiley &amp; Sons, Inc</publisher>
+      <copyright>2005</copyright>
+      <ISBN>0-471-69466-5</ISBN>
+    </book>
+  </required-texts>
+  <course-outcomes>
+    <outcome>Understand common strategies operating systems use for managing processes, threads,
+      and multiple processors, including the basics of real time systems.</outcome>
+    <outcome>Understand how file systems are implemented by the operating system with emphasis
+      on the structure and layout of those systems.</outcome>
+    <outcome>Understand common strategies operating systems use for managing virtual
+      memory.</outcome>
+    <outcome>Write a non-trivial kernel module or device driver for a realistic operating system
+      chosen by the instructor.</outcome>
+    <outcome>Understand the difference between a monolithic system and a microkernel
+      system.</outcome>
+    <outcome>Understand the difference between a realtime system and a non-realtime
+      system.</outcome>
+    <outcome>Understand the basics of distributed operating systems.</outcome>
+    <outcome>Work with other students on a group software project using industry standard
+      software development tools.</outcome>
+  </course-outcomes>
+  <course-content>
+    <topic hours="3">Linux modules and overview of Linux source</topic>
+    <topic hours="6">Process and thread management strategies. Process creation, termination,
+      and synchronization.</topic>
+    <topic hours="6">Memory management with an emphasis on virtual memory management.</topic>
+    <topic hours="3">Implementation of the Linux ext2 file system</topic>
+    <topic hours="6">Design and implementation of GenericFS</topic>
+    <topic hours="2">Other file system features and their implementations</topic>
+    <topic hours="6">Microkernel systems. Design and organization of QNX</topic>
+    <topic hours="6">Device drivers.</topic>
+    <topic hours="4">Topics in distributed systems as time allows.</topic>
+  </course-content>
+  <laboratory-studio-outcomes>
+    <summary>In the laboratory the student turns the theory of operating systems into practice
+      by implementing operating system components (drivers and/or other types of modules). In
+      some cases the student creates or uses simulation software to demonstrate operating system
+      functionality in a controlled way. An important object of the laboratory is to have the
+      students work together as a team on at least one medium sized project.</summary>
+  </laboratory-studio-outcomes>
+  <laboratory-studio-content>
+    <topic>System Calls</topic>
+    <topic>Process Creation</topic>
+    <topic>Process Synchronization</topic>
+    <topic>Memory Management</topic>
+    <topic>GenericFS</topic>
+    <topic>QNX Device Drivers</topic>
+    <topic>Distributed Systems</topic>
+  </laboratory-studio-content>
+  <delivery-method>face-to-face</delivery-method>
+</outline>
