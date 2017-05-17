@@ -3,16 +3,17 @@
 <?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
 <?mso-application progid="InfoPath.Document"?>
 
-<outline created="2005-06-02" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+<outline created="2005-06-02" reviewed="2017-05-17" xmlns="http://www.vtc.vsc.edu/COML_0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 ../COML.xsd">
 
   <summary>
     <authors>
+      <author>Leslie Damon</author>
       <author>Peter C. Chapin</author>
     </authors>
 
-    <department-program>Electrical and Computer Engineering Technology</department-program>
+    <department-program>Computer Information Systems</department-program>
     <number>CIS-3050</number>
     <title>Algorithms and Data Structures</title>
     <prerequisites>
@@ -59,6 +60,7 @@
       C++ following the style of the standard template library.</outcome>
     <outcome>Understand the operation of several sorting algorithms.</outcome>
     <outcome>Understand the operation of linked lists, binary search trees, and hash tables.</outcome>
+    <outcome>Understand the operation of queues, stacks, and heaps.</outcome>
     <outcome>Understand the operation of at least one graph algorithm.</outcome>
     <outcome>Understand the concepts of exception safe coding and be able to provide exception
       safety if necessary.</outcome>
@@ -70,7 +72,7 @@
   </course-outcomes>
 
   <course-content>
-    <topic hours="5">Review of C++</topic>
+    <topic hours="5">Review of C, especially pointers, malloc, and free</topic>
     <topic hours="4">Sorting: insertion sort and merge sort</topic>
     <topic hours="4">Asymptotic running time; recurrences</topic>
     <topic hours="4">Sorting: heap sort, using heaps as priority queues, and quick sort</topic>
