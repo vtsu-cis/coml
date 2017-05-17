@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="COML.xsl" type="text/xsl" media="screen" ?>
+<?xml-stylesheet href="../COML.xsl" type="text/xsl" media="screen" ?>
 <?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
 <?mso-application progid="InfoPath.Document"?>
 
 <outline created="2003-03-14" xmlns="http://www.vtc.vsc.edu/COML_0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 ../COML.xsd">
 
   <summary>
     <authors>

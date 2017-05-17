@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="COML.xsl" ?>
+<?xml-stylesheet type="text/xsl" media="screen" href="../COML.xsl" ?>
 <?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
 <?mso-application progid="InfoPath.Document"?>
 <ns1:outline created="2007-09-14" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ns1="http://www.vtc.vsc.edu/COML_0.0"
   xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"
-  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 COML.xsd">
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 ../COML.xsd">
   <ns1:summary>
     <ns1:authors>
       <ns1:author>Peter C. Chapin</ns1:author>
