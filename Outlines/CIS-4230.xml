@@ -3,13 +3,13 @@
 <?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
 <?mso-application progid="InfoPath.Document"?>
 
-<outline created="2010-04-02" reviewed="2017-04-25" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+<outline created="2010-04-02" reviewed="2017-09-06" xmlns="http://www.vtc.vsc.edu/COML_0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 ../COML.xsd">
 
   <summary>
     <authors>
-      <author>Peter C. Chapin</author>
+      <author>Peter Chapin</author>
     </authors>
     <department-program>Computer Information Systems</department-program>
     <number>CIS-4230</number>
@@ -50,9 +50,9 @@
     <outcome>Understand the issues and approaches for safely controlling concurrency.</outcome>
     <outcome>Effectively write programs that take advantage of multiple threads in a shared
       memory system.</outcome>
-    <outcome>Able to configure a local computing cluster.</outcome>
     <outcome>Effectively write programs that take advantage of message passing in a
       multi-machine cluster.</outcome>
+    <outcome>Write simple programs that take advantage of GPU based computing.</outcome>
   </course-outcomes>
   <course-content>
     <topic hours="3">Introduction; approaches and applications for parallelism.</topic>
@@ -62,15 +62,24 @@
     <topic hours="4">Parallel decomposition via recursion.</topic>
     <topic hours="4">Performance tradeoffs with parallelism; caching effects, thread
       pools.</topic>
-    <topic hours="2">OpenMP</topic>
+    <topic hours="2">OpenMP.</topic>
     <topic hours="2">Lock free programming in shared memory systems.</topic>
     <topic hours="1">Memory models.</topic>
     <topic hours="2">Cluster software and its configuration.</topic>
     <topic hours="3">MPI.</topic>
     <topic hours="2">Communication networks and protocols.</topic>
     <topic hours="6">Parallel decomposition in clusters.</topic>
-    <topic hours="2">Grid and cloud computing.</topic>
-    <topic hours="2">Optional topics as time permits.</topic>
+    <topic hours="4">GPU programming.</topic>
   </course-content>
   <delivery-method>online</delivery-method>
+  <evaluation>
+    <method>Homework</method>
+    <method>Projects</method>
+    <method>Final Exam</method>
+  </evaluation>
+  <graduate-evaluation>Read and summarize two papers selected by the instructor, and one
+    paper of their own choosing (approved by the instructor). Complete a "graduate project"
+    specified by the instructor in place of one of the regular projects that delves more deeply
+    into the subject matter and that includes a detailed performance
+    analysis.</graduate-evaluation>
 </outline>

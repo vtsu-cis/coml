@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- FILE        : COML.xsd
-     LAST REVISED: 2014-02-04
-     AUTHOR      : (C) Copyright 2014 by Peter C. Chapin
+     LAST REVISED: 2017-09-06
+     AUTHOR      : (C) Copyright 2017 by Peter C. Chapin
      SUBJECT     : XML schema for Course Outline Markup Language (COML)
 
 { How do I put this under the GPL or similar license? }
@@ -24,7 +24,7 @@ TO DO
 
   <xs:annotation>
     <xs:documentation>This schema defines a campus-wide standard for course outlines at Vermont
-      Technical College. It was developed by Peter C. Chapin in consultation with the VTC
+      Technical College. It was developed by Peter Chapin in consultation with the VTC
       faculty assembly.</xs:documentation>
   </xs:annotation>
 
@@ -59,6 +59,7 @@ TO DO
       <xs:element name="laboratory-studio-content" type="topicListType" minOccurs="0"/>
       <xs:element name="delivery-method" type="deliveryMethodType"/>
       <xs:element name="evaluation" type="evaluationListType" minOccurs="0"/>
+      <xs:element name="graduate-evaluation" type="xs:string" minOccurs="0"/>
       <xs:element name="room-requirements" type="xs:string" minOccurs="0"/>
       <xs:element name="additional-information" type="xs:string" minOccurs="0"/>
       <xs:element name="internal-comments" type="xs:string" minOccurs="0"/>
