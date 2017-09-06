@@ -1,1 +1,4 @@
 *.xpr eol=lf
+*.xsd eol=lf
+*.xml eol=lf
+
