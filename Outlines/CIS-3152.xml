@@ -56,19 +56,20 @@
   </required-texts>
 
   <course-outcomes>
-    <outcome>Write programs that interact with the low levels of the network stack (raw sockets
-      and the link layer).</outcome>
-    <outcome>Implement an application protocol that uses a datagram transport, such
-      as DNS or TFTP (for both IPv4 and IPv6).</outcome>
+    <outcome>Write programs that interact with the lower levels of the network protocol stack
+    (e.g., raw sockets and the link layer).</outcome>
+    <outcome>Implement an application protocol that uses a datagram transport, such as DNS or
+    TFTP (for both IPv4 and IPv6).</outcome>
     <outcome>Implement an application protocol that uses a stream transport, such as SMTP or
-      HTTP (for both IPv4 and IPv6).</outcome>
-    <outcome>Write software that operates at the highest layers of the network stack (session,
-      presentation, etc).</outcome>
-    <outcome>Use XML to create document types and instance documents, and write applications that
-      can do basic manipulations of those documents.</outcome>
+    HTTP (for both IPv4 and IPv6).</outcome>
+    <outcome>Understand several widely used character sets.</outcome>
+    <outcome>Write programs operating at the highest levels of the network protocol
+    stack (e.g., MIME).</outcome>
+    <outcome>Use XML to create document types and instance documents, and write applications
+    that can do basic manipulations of those documents.</outcome>
     <outcome>Write client/server programs that communicate using an RPC protocol.</outcome>
     <outcome>Read and understand standards documents such as RFCs or W3C recommendations well
-      enough to make non-trivial use of the information contained in them.</outcome>
+    enough to make non-trivial use of the information contained in them.</outcome>
   </course-outcomes>
 
   <course-content>
