@@ -3,20 +3,26 @@
 <?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
 <?mso-application progid="InfoPath.Document"?>
 
-<outline created="2010-04-07" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+<outline created="2010-04-07" reviewed="2017-11-06" xmlns="http://www.vtc.vsc.edu/COML_0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 ../COML.xsd">
 
   <summary>
     <authors>
       <author>Dwight Tuinstra</author>
+      <author>Joan Spasyk</author>
+      <author>Jean F. Hakim</author>
     </authors>
     <department-program>Computer Information Systems</department-program>
     <number>CIS-3010</number>
     <title>Database Systems</title>
     <prerequisites>
       <AND>
-        <course>CIS-2230</course>
+        <course>CIS-1151</course>
+        <OR>
+          <course>CIS-2261</course>
+          <course>CIS-2271</course>
+        </OR>
       </AND>
     </prerequisites>
     <credits>4</credits>
@@ -27,7 +33,7 @@
     </semesters>
     <description>This course covers methods for designing relational databases, the use of SQL
       to define and access a database, and the use of a production-level database management
-      system to implement a relational database system. Students are required to complete a
+      system to implement a relational database system. The student is required to complete a
       project in which they either implement a real-world example relational database, or (at
       the instructor's discretion and approval) research a specific database topic not covered
       during the class. Additional topics that may be discussed as time and class interest
@@ -39,44 +45,40 @@
   <course-level>3000</course-level>
   <required-texts>
     <book>
-      <title>Information Modeling and Relational Databases</title>
+      <title>Fundamentals of Database Systems</title>
+      <edition>7th</edition>
       <authors>
-        <author>Terry Halpin</author>
+        <author>Ramez Elmasri</author>
+        <author>Shamkant B. Navathe</author>
       </authors>
-      <publisher>Morgan Kaufmann</publisher>
-      <copyright>2001</copyright>
-    </book>
-    <book>
-      <title>SQL Instant Reference</title>
-      <edition>second</edition>
-      <authors>
-        <author>Martin Gruber</author>
-      </authors>
-      <publisher>Sybex</publisher>
-      <copyright>2000</copyright>
+      <publisher>Pearson</publisher>
+      <copyright>2016</copyright>
+      <ISBN>978-0-13-397077-7</ISBN>
     </book>
   </required-texts>
   <course-outcomes>
-    <outcome>Implement a relational database of significant complexity.</outcome>
+    <outcome>Demonstrate use of the SQL language to define and access relational data.</outcome>
+    <outcome>Demonstrate at least one database modeling technique (e.g., entity-relationship model).</outcome>
+    <outcome>Implement a real-world relational database of significant complexity.</outcome>
     <outcome>Develop a database from a given set of specifications.</outcome>
-    <outcome>Model a database using Object Role Modeling.</outcome>
-    <outcome>Correctly generate and execute a wide variety of SQL commands.</outcome>
-    <outcome>Use a programming language to interface to a DBMS (embedded SQL).</outcome>
-    <outcome>Implement web based data entry and query features in a database.</outcome>
-    <outcome>Deliver an oral presentation on a completed database project.</outcome>
+    <outcome>Understand database administration, performance, and Big Data.</outcome>
   </course-outcomes>
   <course-content>
-    <topic hours="1">Introduction to databases.</topic>
-    <topic hours="2">Schema.</topic>
-    <topic hours="3">Object-Role Modeling (ORM).</topic>
-    <topic hours="3">Business Rules and Database Constraints.</topic>
-    <topic hours="3">Codds Model.</topic>
-    <topic hours="6">Normalization (to at least 3rd Normal Form).</topic>
-    <topic hours="2">SQL basics (Data Definition Language).</topic>
-    <topic hours="4">SQL basics (Data Manipulation Language).</topic>
-    <topic hours="6">Complex SELECT queries (joins, subselects, correlated subselects).</topic>
-    <topic hours="12">Student Projects and guest lecturers on advanced topics.</topic>
-    <topic hours="3">Quizzes and Exams.</topic>
+    <topic>Introduction to databases.</topic>
+    <topic>The relational model.</topic>
+    <topic>Introduction to SQL.</topic>
+    <topic>Row/column function.</topic>
+    <topic>Joins.</topic>
+    <topic>Subqueries.</topic>
+    <topic>Database design.</topic>
+    <topic>Database normalization.</topic>
+    <topic>Referential integrity.</topic>
+    <topic>Physical database design.</topic>
+    <topic>ADO.NET/PHP.</topic>
+    <topic>SQL set operations/views</topic>
+    <topic>Multiuser systems</topic>
+    <topic>Database security</topic>
+    <topic>Projects</topic>
   </course-content>
   <laboratory-studio-outcomes>
     <summary>The laboratory provides an opportunity for students to become competent with a
@@ -84,17 +86,23 @@
       the capstone experience for this course.</summary>
   </laboratory-studio-outcomes>
   <laboratory-studio-content>
-    <topic>Intro to DBMS and tools.</topic>
-    <topic>ORM Modeling exercises (2 weeks).</topic>
-    <topic>Complex Modeling exercises (ORM->Codds Notation->Normalization)(2 weeks).</topic>
-    <topic>SQLs Data Definition Language.</topic>
-    <topic>SQLs Data Manipulation Language.</topic>
-    <topic>Joining Tables.</topic>
-    <topic>Subselects.</topic>
-    <topic>Complex SQL statements.</topic>
-    <topic>Student Projects (approved by instructor) (4 weeks) (guest lecturers may be brought
-      in during this time to present advanced database topics).</topic>
-    <topic>Project Presentations.</topic>
+    <topic>Database engine setup.</topic>
+    <topic>Row/column functions.</topic>
+    <topic>Loading data.</topic>
+    <topic>Subqueries and outer joins.</topic>
+    <topic>Data modeling.</topic>
+    <topic>Referential integrity.</topic>
+    <topic>Sequences and triggers.</topic>
+    <topic>Review final projects.</topic>
+    <topic>Set operations and views.</topic>
+    <topic>Project presentations.</topic>
   </laboratory-studio-content>
   <delivery-method>face-to-face</delivery-method>
+  <evaluation>
+    <method>Exams</method>
+    <method>Homework</method>
+    <method>Lab Reports</method>
+    <method>Projects</method>
+  </evaluation>
+  <room-requirements>Computer lab needed for the lab component</room-requirements>
 </outline>
