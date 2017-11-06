@@ -12,7 +12,7 @@
       <author>Peter Chapin</author>
     </authors>
     <department-program>Computer Information Systems</department-program>
-    <number>CIS-4230</number>
+    <number>CIS-5230</number>
     <title>Parallel Programming</title>
     <prerequisites>
       <AND>
@@ -32,7 +32,7 @@
       modern GPU devices is also introduced.</description>
   </summary>
   <short-title>Parallel Programming</short-title>
-  <course-level>4000</course-level>
+  <course-level>5000</course-level>
   <required-texts>
     <book>
       <title>Introduction to Parallel Programming</title>
@@ -79,4 +79,10 @@
     <method>Projects</method>
     <method>Final Exam</method>
   </evaluation>
+  <graduate-evaluation>Read and summarize two papers selected by the instructor, and one
+    paper of their own choosing (approved by the instructor). Complete a "graduate project"
+    specified by the instructor in place of one of the regular projects that delves
+    more deeply into the subject matter and that includes a detailed performance
+    analysis. The student will also do a short presentation about his or her project to the
+    class.</graduate-evaluation>
 </outline>

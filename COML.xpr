@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="19.0">
+<project version="19.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options/>
@@ -50,6 +50,7 @@
             <file name="Outlines/CIS-4712.xml"/>
             <file name="Outlines/CIS-4721.xml"/>
             <file name="Outlines/CIS-4722.xml"/>
+            <file name="Outlines/CIS-5230.xml"/>
             <file name="Outlines/CIS-9999.xml"/>
             <file name="Outlines/course-template.xml"/>
         </folder>
