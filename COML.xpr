@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="19.1">
+<project version="22.0">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options/>
@@ -35,7 +35,6 @@
             <file name="Outlines/CIS-3310.xml"/>
             <file name="Outlines/CIS-3311.xml"/>
             <file name="Outlines/CIS-3312.xml"/>
-            <file name="Outlines/CIS-3620-1.xml"/>
             <file name="Outlines/CIS-4020.xml"/>
             <file name="Outlines/CIS-4030.xml"/>
             <file name="Outlines/CIS-4040.xml"/>
