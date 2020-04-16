@@ -7,8 +7,8 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import org.xml.sax.helpers.DefaultHandler;
 
 /**
- * This class verifies that the total number of hours mentioned in the list of topics is consistent with the number of
- * hours mentioned in the summary.
+ * This class verifies that the total number of hours mentioned in the list of topics is
+ * consistent with the number of hours mentioned in the summary.
  */
 public class CountHours extends DefaultHandler {
 
@@ -40,11 +40,11 @@ public class CountHours extends DefaultHandler {
         String namespace, String elementName, String rawName, Attributes attrs)
             throws NumberFormatException
     {
-        if (elementName.compareTo("time") == 0) {
+        if (elementName.equals("time")) {
             lectureHours = Float.parseFloat(attrs.getValue("lecture"));
             System.out.println("Lecture " + lectureHours + " hrs/wk");
         }
-        else if (elementName.compareTo("topic") == 0) {
+        else if (elementName.equals("topic")) {
             int hoursIndex = attrs.getIndex("hours");
             if (hoursIndex != -1) {
                 totalHours += Float.parseFloat(attrs.getValue(hoursIndex));
