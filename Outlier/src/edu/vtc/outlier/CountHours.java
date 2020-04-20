@@ -1,28 +1,23 @@
 package edu.vtc.outlier;
 
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 import org.xml.sax.helpers.DefaultHandler;
 
+import java.io.File;
+
 /**
  * This class verifies that the total number of hours mentioned in the list of topics is
  * consistent with the number of hours mentioned in the summary.
  */
 public class CountHours extends DefaultHandler {
-
-    // These URLs are standard and are just meant to be globally unique IDs.
-    private static final String VALIDATION_FEATURE_ID =
-        "http://xml.org/sax/features/validation";
-
-    // This is, apparently, Xerces specific.
-    private static final String VALIDATION_SCHEMA_ID =
-        "http://apache.org/xml/features/validation/schema";
-
-    // Replace this with the name of any suitable SAX parser class.
-    private static final String DEFAULT_PARSER_NAME =
-        "org.apache.xerces.parsers.SAXParser";
 
     // Holds the number of lecture hours per week for this course.
     private float lectureHours;
@@ -31,7 +26,6 @@ public class CountHours extends DefaultHandler {
     private float totalHours = 0.0F;
 
 
-    //
     // Public methods.
     // These are callbacks that are invoked by the parser whenever an event occurs.
     //
@@ -45,10 +39,15 @@ public class CountHours extends DefaultHandler {
             System.out.println("Lecture " + lectureHours + " hrs/wk");
         }
         else if (elementName.equals("topic")) {
-            int hoursIndex = attrs.getIndex("hours");
-            if (hoursIndex != -1) {
-                totalHours += Float.parseFloat(attrs.getValue(hoursIndex));
+            String hoursString = attrs.getValue("hours");
+            System.out.println("Found topic! hoursString = " + hoursString);
+            if (hoursString != null) {
+                totalHours += Float.parseFloat(hoursString);
             }
+            //int hoursIndex = attrs.getIndex("hours");
+            //if (hoursIndex != -1) {
+            //    totalHours += Float.parseFloat(attrs.getValue(hoursIndex));
+            //}
         }
     }
 
@@ -65,7 +64,6 @@ public class CountHours extends DefaultHandler {
     //
     // MAIN
     //
-
     public static void main(String[] argv) {
 
         // Check the command line.
@@ -76,20 +74,27 @@ public class CountHours extends DefaultHandler {
 
         // Create a ContentHandler object.
         CountHours hoursCounter = new CountHours();
-        XMLReader parser;
+        SAXParser parser;
+        XMLReader reader;
 
         try {
-            // Create parser and turn on desired features.
-            parser = XMLReaderFactory.createXMLReader(DEFAULT_PARSER_NAME);
-            parser.setFeature(VALIDATION_FEATURE_ID, true);
-            parser.setFeature(VALIDATION_SCHEMA_ID, true);
+            // Create a schema factory that supports the desired schema language:
+            SchemaFactory schemaFactory = SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
+            Schema schema = schemaFactory.newSchema(new File("../COML.xsd"));
 
-            System.out.println("Checking file: " + argv[0]);
+            // Create parser and turn on desired features.
+            SAXParserFactory factory = SAXParserFactory.newInstance();
+            factory.setSchema(schema);
+            factory.setValidating(true);
+
+            // Create the parser.
+            parser = factory.newSAXParser();
 
             // Parse file.
-            parser.setContentHandler(hoursCounter);
-            // parser.setErrorHandler(hoursCounter);
-            parser.parse(argv[0]);
+            System.out.println("Checking file: " + argv[0]);
+            reader = parser.getXMLReader();
+            reader.setContentHandler(hoursCounter);
+            reader.parse(argv[0]);
         }
         catch (SAXException e) {
             System.err.println("Fatal: Caught SAXException: " + e);
