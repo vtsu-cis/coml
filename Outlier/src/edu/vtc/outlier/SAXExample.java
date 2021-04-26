@@ -1,48 +1,55 @@
 package edu.vtc.outlier;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.XMLReaderFactory;
+import org.xml.sax.*;
 import org.xml.sax.helpers.DefaultHandler;
 
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import java.io.File;
+
 /**
- * This class illustrates how the SAX might be used. This example is complete enough and yet generic enough to serve as
- * a skeleton for a variety of programs that use SAX. Note that this example does not do a number of things that it
- * might do (like install an error handler). However, I wanted to keep the example small and simple so that the main
- * ideas would not be obscured.
+ * This class illustrates how the SAX might be used. This example is complete enough and yet
+ * generic enough to serve as a skeleton for a variety of programs that use SAX. Note that this
+ * example does not do a number of things that it might do (like install an error handler).
+ * However, I wanted to keep the example small and simple so that the main ideas would not be
+ * obscured.
  */
-public class SAXExample extends DefaultHandler {
-
-    // These URLs are standard and are just meant to be globally unique IDs.
-    private static final String VALIDATION_FEATURE_ID =
-        "http://xml.org/sax/features/validation";
-
-    // This is, apparently, Xerces specific.
-    private static final String VALIDATION_SCHEMA_ID =
-        "http://apache.org/xml/features/validation/schema";
-
-    // Replace this with the name of any suitable SAX parser class.
-    private static final String DEFAULT_PARSER_NAME =
-        "org.apache.xerces.parsers.SAXParser";
+public class SAXExample extends DefaultHandler implements ErrorHandler {
 
     // Used to hold state information from event to event.
     private String content = null;
 
     //
-    // Public methods. These are callbacks that are invoked by the
-    // parser whenever an event occurs.
+    // These are callbacks that are invoked by the parser whenever an error occurs.
     //
+    @Override
+    public void error(SAXParseException exception)
+    {
+        int lineNumber = exception.getLineNumber();
+        int columnNumber = exception.getColumnNumber();
+        String coordinates = "(" + lineNumber + ", " + columnNumber + ") ";
+
+        System.out.println("*** PARSE ERROR: " + coordinates + exception.getMessage());
+    }
+
+    //
+    // These are callbacks that are invoked by the parser whenever an event occurs.
+    //
+    @Override
     public void startDocument()
     {
         System.out.println("Document starting");
     }
 
+    @Override
     public void endDocument()
     {
         System.out.println("Document ending");
     }
 
+    @Override
     public void startElement(
         String namespace,
         String elementName,
@@ -54,6 +61,7 @@ public class SAXExample extends DefaultHandler {
         content = null;
     }
 
+    @Override
     public void endElement(
         String namespace,
         String elementName,
@@ -66,10 +74,12 @@ public class SAXExample extends DefaultHandler {
         System.out.println("Exiting element: " + elementName);
     }
 
+    @Override
     public void characters(char[] buffer, int start, int length)
     {
-        // Collect the content into a single String. The parser might call this method many times if the content is
-        // long. I really have to collect the results of all calls before I look too closely at it.
+        // Collect the content into a single String. The parser might call this method many
+        // times if the content is long. I really have to collect the results of all calls
+        // before I look too closely at it.
         //
         if (content == null) content = new String(buffer, start, length);
         else content = content + new String(buffer, start, length);
@@ -89,18 +99,35 @@ public class SAXExample extends DefaultHandler {
 
         // Create a ContentHandler object.
         SAXExample myExample = new SAXExample();
-        XMLReader parser;
+        SAXParser parser;
+        XMLReader reader;
 
         try {
+            // Create a schema factory that supports the desired schema language:
+            SchemaFactory schemaFactory =
+                    SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
+            Schema schema = schemaFactory.newSchema(new File("../COML.xsd"));
+
             // Create parser and turn on desired features.
-            parser = XMLReaderFactory.createXMLReader(DEFAULT_PARSER_NAME);
-            parser.setFeature(VALIDATION_FEATURE_ID, true);
-            parser.setFeature(VALIDATION_SCHEMA_ID, true);
+            SAXParserFactory factory = SAXParserFactory.newInstance();
+            factory.setSchema(schema);
+
+            // Although it is intuitive to call this method, it isn't what is desired in this
+            // situation. Calling setValidation(true) will cause the parser to expect a
+            // DOCTYPE declaration in the instance document. When validating using a schema
+            // that is not appropriate (setting the schema as above will implies that you want
+            // validation.
+            //
+            //factory.setValidating(true);
+
+            // Create the parser.
+            parser = factory.newSAXParser();
 
             // Parse file.
-            parser.setContentHandler(myExample);
-            // parser.setErrorHandler(myExample);
-            parser.parse(argv[0]);
+            reader = parser.getXMLReader();
+            reader.setContentHandler(myExample);
+            reader.setErrorHandler(myExample);
+            reader.parse(argv[0]);
         }
         catch (SAXException e) {
             System.err.println("Fatal: Caught SAXException: " + e);

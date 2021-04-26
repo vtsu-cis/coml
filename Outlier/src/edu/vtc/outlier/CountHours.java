@@ -5,10 +5,7 @@ import javax.xml.parsers.SAXParserFactory;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.XMLReaderFactory;
+import org.xml.sax.*;
 import org.xml.sax.helpers.DefaultHandler;
 
 import java.io.File;
@@ -25,8 +22,20 @@ public class CountHours extends DefaultHandler {
     // Holds the total number of topic hours for this course.
     private float totalHours = 0.0F;
 
+    //
+    // These are callbacks that are invoked by the parser whenever an error occurs.
+    //
+    @Override
+    public void error(SAXParseException exception)
+    {
+        int lineNumber = exception.getLineNumber();
+        int columnNumber = exception.getColumnNumber();
+        String coordinates = "(" + lineNumber + ", " + columnNumber + ") ";
 
-    // Public methods.
+        System.out.println("*** PARSE ERROR: " + coordinates + exception.getMessage());
+    }
+
+    //
     // These are callbacks that are invoked by the parser whenever an event occurs.
     //
     @Override
@@ -34,7 +43,7 @@ public class CountHours extends DefaultHandler {
         String namespace, String elementName, String rawName, Attributes attrs)
             throws NumberFormatException
     {
-        if (elementName.equals("time")) {
+       if (elementName.equals("time")) {
             lectureHours = Float.parseFloat(attrs.getValue("lecture"));
             System.out.println("Lecture " + lectureHours + " hrs/wk");
         }
@@ -79,13 +88,13 @@ public class CountHours extends DefaultHandler {
 
         try {
             // Create a schema factory that supports the desired schema language:
-            SchemaFactory schemaFactory = SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
+            SchemaFactory schemaFactory =
+                    SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
             Schema schema = schemaFactory.newSchema(new File("../COML.xsd"));
 
             // Create parser and turn on desired features.
             SAXParserFactory factory = SAXParserFactory.newInstance();
             factory.setSchema(schema);
-            factory.setValidating(true);
 
             // Create the parser.
             parser = factory.newSAXParser();
@@ -94,6 +103,7 @@ public class CountHours extends DefaultHandler {
             System.out.println("Checking file: " + argv[0]);
             reader = parser.getXMLReader();
             reader.setContentHandler(hoursCounter);
+            reader.setErrorHandler(hoursCounter);
             reader.parse(argv[0]);
         }
         catch (SAXException e) {

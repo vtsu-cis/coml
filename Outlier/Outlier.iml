@@ -8,7 +8,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-sdk-2.12.8" level="application" />
-    <orderEntry type="library" name="xerces:xercesImpl:2.12.0" level="project" />
+    <orderEntry type="library" name="xerces:xercesImpl:2.12.1" level="project" />
   </component>
 </module>

@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SAXExample" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="edu.vtc.outlier.SAXExample" />
+    <module name="Outlier" />
+    <option name="PROGRAM_PARAMETERS" value="../Outlines/CIS-3152.xml" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
