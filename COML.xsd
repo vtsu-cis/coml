@@ -24,8 +24,8 @@ TO DO
 
   <xs:annotation>
     <xs:documentation>This schema defines a campus-wide standard for course outlines at Vermont
-      Technical College. It was developed by Peter Chapin in consultation with the VTC
-      faculty assembly.</xs:documentation>
+      Technical College. It was developed by Peter Chapin in consultation with the VTC faculty
+      assembly.</xs:documentation>
   </xs:annotation>
 
   <!--ROOT ELEMENT-->
@@ -260,8 +260,8 @@ TO DO
   <xs:complexType name="textsType">
     <xs:annotation>
       <xs:documentation>This type describes the bibliographic information of a text book or
-        similar resource. All of the child elements are optional, allowing for incomplete
-        information.</xs:documentation>
+        similar resource. All of the child elements are optional, except for the title, allowing
+        for incomplete information.</xs:documentation>
     </xs:annotation>
     <xs:sequence maxOccurs="unbounded">
       <xs:choice>
@@ -270,7 +270,7 @@ TO DO
             <xs:sequence>
               <xs:element name="title" type="xs:string"/>
               <xs:element name="edition" type="xs:string" minOccurs="0"/>
-              <xs:element name="authors" type="authorsType"/>
+              <xs:element name="authors" type="authorsType" minOccurs="0"/>
               <xs:element name="publisher" type="xs:string" minOccurs="0"/>
               <xs:element name="copyright" type="xs:string" minOccurs="0"/>
               <xs:element name="ISBN" type="xs:string" minOccurs="0"/>
@@ -330,6 +330,7 @@ TO DO
 
   <xs:simpleType name="deliveryMethodType">
     <xs:restriction base="xs:string">
+      <!-- This could be elaborated to allow only the specific delivery methods we use. -->
       <!-- <xs:pattern value="face-to-face|online|hybrid"/> -->
     </xs:restriction>
   </xs:simpleType>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../COML.xsl" type="text/xsl" media="screen" ?>
+<?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
+<?mso-application progid="InfoPath.Document"?>
+
+<outline created="2013-01-03" reviewed="2018-03-06" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 ../COML.xsd">
+
+  <summary>
+    <authors>
+      <author>Jean Hakim</author>
+    </authors>
+    <department-program>Computer Information Systems</department-program>
+    <number>CIS-4080</number>
+    <title>Network Security</title>
+    <prerequisites>
+      <AND>
+        <course>CIS-2151</course>
+      </AND>
+    </prerequisites>
+    <credits>3</credits>
+    <graded>true</graded>
+    <time lecture="3" laboratory="0" studio="0" recitation="0" study="6"/>
+    <semesters>
+      <semester>Fall</semester>
+      <semester>Spring</semester>
+    </semesters>
+    <description>In this course, the student learns how to implement, monitor, deploy, and
+      maintain a secure network; implement on Cisco routers (AAA, IPsec, secure Layer 2
+      technologies); implement firewall technologies; IDS and IPS fundamentals; and mitigation
+      technologies for email, web-based, and endpoint threats. Comprehensive assignments using
+      the Cisco Packet Tracer network simulator emphasize hands-on learning.</description>
+  </summary>
+
+  <short-title>Network Security</short-title>
+
+  <course-level>4000</course-level>
+
+  <required-texts>
+    <book>
+      <title>CCNA Routing and Switching Portable Command Guide</title>
+    </book>
+  </required-texts>
+
+  <course-outcomes>
+    <outcome>Describe security threats facing modern network infrastructures (EPO 9)</outcome>
+    <outcome>Secure network device access (EPO 8, 9)</outcome>
+    <outcome>Implement AAA on network devices (EPO 8, 9)</outcome>
+    <outcome>Mitigate threats to networks using ACLs Implement secure network management and reporting (EPO 8, 9)</outcome>
+    <outcome>Mitigate common Layer 2 attacks  (EPO 9)</outcome>
+    <outcome>Implement the Cisco IOS firewall feature set (EPO 8, 9)</outcome>
+    <outcome>Implement an adaptive security appliance (ASA) (EPO 8, 9)</outcome>
+    <outcome>Implement the Cisco IOS Intrusion Prevention System (IPS) feature set (EPO 8, 9)</outcome>
+    <outcome>Implement site-to-site IP Sec VPNs (EPO 8, 9)</outcome>
+    <outcome>Administer effective security policies (EPO 8, 9)</outcome>
+  </course-outcomes>
+
+  <course-content>
+    <topic hours="1.0">Network threats, mitigation techniques, introduction to securing a network</topic>
+    <topic hours="1.0">Secure administration on routers.</topic>
+    <topic hours="1.0">Secure administration with AAA.</topic>
+    <topic hours="1.0">Implement firewall technoliges to secure the network perimiter.</topic>
+    <topic hours="1.0">Configure IPS to mitigate attacks on the network.</topic>
+    <topic hours="1.0">LAN security considerations and implementation of layer 2 security features.</topic>
+    <topic hours="1.0">Methods for protecting data confidentiality and integrity.</topic>
+    <topic hours="1.0">Implement secure virtual private networks.</topic>
+    <topic hours="1.0">Create and implement a comprehesive security policy to meet the security needs of an enterprise.</topic>
+    <topic hours="1.0">Implement firewall technologies using the ASA to secure the network perimeter.</topic>
+  </course-content>
+  
+  <delivery-method>synchronous</delivery-method>
+  <evaluation>
+    <method>Attendance</method>
+    <method>Exams</method>
+    <method>Homework</method>
+    <method>Projects</method>
+  </evaluation>
+</outline>
