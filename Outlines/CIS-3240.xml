@@ -3,16 +3,16 @@
 <?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
 <?mso-application progid="InfoPath.Document"?>
 
-<outline created="2013-01-03" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+<outline created="2013-01-03" reviewed="2024-08-16" xmlns="http://www.vtc.vsc.edu/COML_0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 ../COML.xsd">
 
   <summary>
     <authors>
-      <author>Peter C. Chapin</author>
+      <author>Peter Chapin</author>
     </authors>
     <department-program>Computer Information Systems</department-program>
-    <number>CIS-4040</number>
+    <number>CIS-3240</number>
     <title>Computer Security</title>
     <prerequisites>
       <AND>
@@ -40,23 +40,25 @@
       auditing, and intrusion detection.</description>
   </summary>
   <short-title>Computer Security</short-title>
-  <course-level>4000</course-level>
+  <course-level>3000</course-level>
   <required-texts>
     <book>
-      <title>Cryptography and Network Security. Principles and Practice</title>
-      <edition>fifth</edition>
+      <title>Security in Computing</title>
+      <edition>sixth</edition>
       <authors>
-        <author>William Stallings</author>
+        <author>Charles Pfleeger</author>
+        <author>Shari Lawrence Pfleeger</author>
+        <author>Lizzie Coles-Kemp</author>
       </authors>
-      <publisher>Prentice Hall</publisher>
-      <copyright>2011</copyright>
-      <ISBN>0-13-609704-9</ISBN>
+      <publisher>Addison-Wesley Professional</publisher>
+      <copyright>2023</copyright>
+      <!-- <ISBN>0-13-609704-9</ISBN> -->
     </book>
   </required-texts>
   <course-outcomes>
     <outcome>Understand cryptographic technology well enough to recommend appropriate use of the
       technology and to deploy the technology both in the context of system administration and
-      software development. The students should be able to appreciate the mathematical basis of
+      software development. The student should be able to appreciate the mathematical basis of
       encryption technology, however they need not be able to formally verify the strength or
       correctness of cryptographic algorithms.</outcome>
     <outcome>Understand the details of at least one security protocol and be able to implement
