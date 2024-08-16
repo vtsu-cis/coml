@@ -3,13 +3,13 @@
 <?mso-infoPathSolution productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:schemas-microsoft-com:office:infopath:COML:http---www-vtc-vsc-edu-COML-0-0" language="en-us" href="COML.xsn" solutionVersion="1.0.0.47" ?>
 <?mso-application progid="InfoPath.Document"?>
 
-<outline created="2010-04-05" xmlns="http://www.vtc.vsc.edu/COML_0.0"
+<outline created="2010-04-05" reviewed="2024-08-16" xmlns="http://www.vtc.vsc.edu/COML_0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.vtc.vsc.edu/COML_0.0 ../COML.xsd">
 
   <summary>
     <authors>
-      <author>Peter C. Chapin</author>
+      <author>Peter Chapin</author>
     </authors>
     <department-program>Computer Information Systems</department-program>
     <number>CIS-4020</number>
@@ -36,7 +36,7 @@
   <course-level>4000</course-level>
   <required-texts>
     <book>
-      <title>Operating System Concepts</title>
+      <title>Operating System Concepts Essentials</title>
       <edition>seventh</edition>
       <authors>
         <author>Silberschatz</author>
@@ -44,15 +44,15 @@
         <author>Gagne</author>
       </authors>
       <publisher>John Wiley &amp; Sons, Inc</publisher>
-      <copyright>2005</copyright>
-      <ISBN>0-471-69466-5</ISBN>
+      <copyright>2010</copyright>
+      <!-- <ISBN>0-471-69466-5</ISBN> -->
     </book>
   </required-texts>
   <course-outcomes>
     <outcome>Understand common strategies operating systems use for managing processes, threads,
-      and multiple processors, including the basics of real time systems.</outcome>
+      and multiple processors.</outcome>
     <outcome>Understand how file systems are implemented by the operating system with emphasis
-      on the structure and layout of those systems.</outcome>
+      on the structure and layout of a file system.</outcome>
     <outcome>Understand common strategies operating systems use for managing virtual
       memory.</outcome>
     <outcome>Write a non-trivial kernel module or device driver for a realistic operating system
@@ -70,7 +70,7 @@
     <topic hours="6">Process and thread management strategies. Process creation, termination,
       and synchronization.</topic>
     <topic hours="6">Memory management with an emphasis on virtual memory management.</topic>
-    <topic hours="3">Implementation of the Linux ext2 file system</topic>
+    <topic hours="3">Implementation of the Linux ext4 file system</topic>
     <topic hours="6">Design and implementation of GenericFS</topic>
     <topic hours="2">Other file system features and their implementations</topic>
     <topic hours="6">Microkernel systems. Design and organization of QNX</topic>
